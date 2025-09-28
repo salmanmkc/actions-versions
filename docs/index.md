@@ -5,6 +5,20 @@
 | Major | Version | Release Date | Link |
 |-------|---------|-------------|------|
 | v5 | v5.0.0 | 2025-08-11 | [View Release](https://github.com/actions/checkout/releases/tag/v5.0.0) |
+| v4 | v4.3.0 | 2025-08-11 | [View Release](https://github.com/actions/checkout/releases/tag/v4.3.0) |
+| v4 | v4.2.2 | 2024-10-23 | [View Release](https://github.com/actions/checkout/releases/tag/v4.2.2) |
+| v4 | v4.2.1 | 2024-10-07 | [View Release](https://github.com/actions/checkout/releases/tag/v4.2.1) |
+| v4 | v4.2.0 | 2024-09-25 | [View Release](https://github.com/actions/checkout/releases/tag/v4.2.0) |
+| v4 | v4.1.7 | 2024-06-12 | [View Release](https://github.com/actions/checkout/releases/tag/v4.1.7) |
+| v4 | v4.1.6 | 2024-05-16 | [View Release](https://github.com/actions/checkout/releases/tag/v4.1.6) |
+| v4 | v4.1.5 | 2024-05-06 | [View Release](https://github.com/actions/checkout/releases/tag/v4.1.5) |
+| v4 | v4.1.4 | 2024-04-24 | [View Release](https://github.com/actions/checkout/releases/tag/v4.1.4) |
+| v4 | v4.1.3 | 2024-04-19 | [View Release](https://github.com/actions/checkout/releases/tag/v4.1.3) |
+| v4 | v4.1.2 | 2024-03-12 | [View Release](https://github.com/actions/checkout/releases/tag/v4.1.2) |
+| v4 | v4.1.1 | 2023-10-17 | [View Release](https://github.com/actions/checkout/releases/tag/v4.1.1) |
+| v4 | v4.0.0 | 2023-10-17 | [View Release](https://github.com/actions/checkout/releases/tag/v4.0.0) |
+| v4 | v4.1.0 | 2023-09-22 | [View Release](https://github.com/actions/checkout/releases/tag/v4.1.0) |
+
 <details><summary><strong>v5.0.0 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/32169182?v=4" alt="@salmanmkc" width="32" height="32" /> <a href="https://github.com/salmanmkc">@salmanmkc</a>
 
@@ -20,9 +34,9 @@
 Make sure your runner is updated to this version or newer to use this release.
 
 **Full Changelog**: https://github.com/actions/checkout/compare/v4...v5.0.0
+<br /><a href="https://github.com/actions/checkout/releases/tag/v5.0.0">View Release</a>
 </details>
 
-| v4 | v4.3.0 | 2025-08-11 | [View Release](https://github.com/actions/checkout/releases/tag/v4.3.0) |
 <details><summary><strong>v4.3.0 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/32169182?v=4" alt="@salmanmkc" width="32" height="32" /> <a href="https://github.com/salmanmkc">@salmanmkc</a>
 
@@ -44,9 +58,9 @@ Make sure your runner is updated to this version or newer to use this release.
 * @salmanmkc made their first contribution in https://github.com/actions/checkout/pull/2236
 
 **Full Changelog**: https://github.com/actions/checkout/compare/v4...v4.3.0
+<br /><a href="https://github.com/actions/checkout/releases/tag/v4.3.0">View Release</a>
 </details>
 
-| v4 | v4.2.2 | 2024-10-23 | [View Release](https://github.com/actions/checkout/releases/tag/v4.2.2) |
 <details><summary><strong>v4.2.2 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/81404201?v=4" alt="@jww3" width="32" height="32" /> <a href="https://github.com/jww3">@jww3</a>
 
@@ -56,9 +70,9 @@ Make sure your runner is updated to this version or newer to use this release.
 
 
 **Full Changelog**: https://github.com/actions/checkout/compare/v4.2.1...v4.2.2
+<br /><a href="https://github.com/actions/checkout/releases/tag/v4.2.2">View Release</a>
 </details>
 
-| v4 | v4.2.1 | 2024-10-07 | [View Release](https://github.com/actions/checkout/releases/tag/v4.2.1) |
 <details><summary><strong>v4.2.1 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/16631042?v=4" alt="@joshmgross" width="32" height="32" /> <a href="https://github.com/joshmgross">@joshmgross</a>
 
@@ -69,9 +83,9 @@ Make sure your runner is updated to this version or newer to use this release.
 * @Jcambass made their first contribution in https://github.com/actions/checkout/pull/1919
 
 **Full Changelog**: https://github.com/actions/checkout/compare/v4.2.0...v4.2.1
+<br /><a href="https://github.com/actions/checkout/releases/tag/v4.2.1">View Release</a>
 </details>
 
-| v4 | v4.2.0 | 2024-09-25 | [View Release](https://github.com/actions/checkout/releases/tag/v4.2.0) |
 <details><summary><strong>v4.2.0 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/16631042?v=4" alt="@joshmgross" width="32" height="32" /> <a href="https://github.com/joshmgross">@joshmgross</a>
 
@@ -84,9 +98,9 @@ Make sure your runner is updated to this version or newer to use this release.
 * @lucacome made their first contribution in https://github.com/actions/checkout/pull/1180
 
 **Full Changelog**: https://github.com/actions/checkout/compare/v4.1.7...v4.2.0
+<br /><a href="https://github.com/actions/checkout/releases/tag/v4.2.0">View Release</a>
 </details>
 
-| v4 | v4.1.7 | 2024-06-12 | [View Release](https://github.com/actions/checkout/releases/tag/v4.1.7) |
 <details><summary><strong>v4.1.7 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/16631042?v=4" alt="@joshmgross" width="32" height="32" /> <a href="https://github.com/joshmgross">@joshmgross</a>
 
@@ -100,9 +114,9 @@ Make sure your runner is updated to this version or newer to use this release.
 * @orhantoy made their first contribution in https://github.com/actions/checkout/pull/1774
 
 **Full Changelog**: https://github.com/actions/checkout/compare/v4.1.6...v4.1.7
+<br /><a href="https://github.com/actions/checkout/releases/tag/v4.1.7">View Release</a>
 </details>
 
-| v4 | v4.1.6 | 2024-05-16 | [View Release](https://github.com/actions/checkout/releases/tag/v4.1.6) |
 <details><summary><strong>v4.1.6 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/13227161?v=4" alt="@cory-miller" width="32" height="32" /> <a href="https://github.com/cory-miller">@cory-miller</a>
 
@@ -112,9 +126,9 @@ Make sure your runner is updated to this version or newer to use this release.
 
 
 **Full Changelog**: https://github.com/actions/checkout/compare/v4.1.5...v4.1.6
+<br /><a href="https://github.com/actions/checkout/releases/tag/v4.1.6">View Release</a>
 </details>
 
-| v4 | v4.1.5 | 2024-05-06 | [View Release](https://github.com/actions/checkout/releases/tag/v4.1.5) |
 <details><summary><strong>v4.1.5 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/13227161?v=4" alt="@cory-miller" width="32" height="32" /> <a href="https://github.com/cory-miller">@cory-miller</a>
 
@@ -127,9 +141,9 @@ Make sure your runner is updated to this version or newer to use this release.
 
 
 **Full Changelog**: https://github.com/actions/checkout/compare/v4.1.4...v4.1.5
+<br /><a href="https://github.com/actions/checkout/releases/tag/v4.1.5">View Release</a>
 </details>
 
-| v4 | v4.1.4 | 2024-04-24 | [View Release](https://github.com/actions/checkout/releases/tag/v4.1.4) |
 <details><summary><strong>v4.1.4 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/81404201?v=4" alt="@jww3" width="32" height="32" /> <a href="https://github.com/jww3">@jww3</a>
 
@@ -140,9 +154,9 @@ Make sure your runner is updated to this version or newer to use this release.
 * Bump the minor-actions-dependencies group with 2 updates by @dependabot in https://github.com/actions/checkout/pull/1693
 
 **Full Changelog**: https://github.com/actions/checkout/compare/v4.1.3...v4.1.4
+<br /><a href="https://github.com/actions/checkout/releases/tag/v4.1.4">View Release</a>
 </details>
 
-| v4 | v4.1.3 | 2024-04-19 | [View Release](https://github.com/actions/checkout/releases/tag/v4.1.3) |
 <details><summary><strong>v4.1.3 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/13227161?v=4" alt="@cory-miller" width="32" height="32" /> <a href="https://github.com/cory-miller">@cory-miller</a>
 
@@ -153,9 +167,9 @@ Make sure your runner is updated to this version or newer to use this release.
 
 
 **Full Changelog**: https://github.com/actions/checkout/compare/v4.1.2...v4.1.3
+<br /><a href="https://github.com/actions/checkout/releases/tag/v4.1.3">View Release</a>
 </details>
 
-| v4 | v4.1.2 | 2024-03-12 | [View Release](https://github.com/actions/checkout/releases/tag/v4.1.2) |
 <details><summary><strong>v4.1.2 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/81404201?v=4" alt="@jww3" width="32" height="32" /> <a href="https://github.com/jww3">@jww3</a>
 
@@ -171,9 +185,9 @@ We are investigating the following issue with this release and have rolled-back 
 * @jww3 made their first contribution in https://github.com/actions/checkout/pull/1616
 
 **Full Changelog**: https://github.com/actions/checkout/compare/v4.1.1...v4.1.2
+<br /><a href="https://github.com/actions/checkout/releases/tag/v4.1.2">View Release</a>
 </details>
 
-| v4 | v4.1.1 | 2023-10-17 | [View Release](https://github.com/actions/checkout/releases/tag/v4.1.1) |
 <details><summary><strong>v4.1.1 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/13227161?v=4" alt="@cory-miller" width="32" height="32" /> <a href="https://github.com/cory-miller">@cory-miller</a>
 
@@ -187,9 +201,9 @@ We are investigating the following issue with this release and have rolled-back 
 * @peterbe made their first contribution in https://github.com/actions/checkout/pull/1511
 
 **Full Changelog**: https://github.com/actions/checkout/compare/v4.1.0...v4.1.1
+<br /><a href="https://github.com/actions/checkout/releases/tag/v4.1.1">View Release</a>
 </details>
 
-| v4 | v4.0.0 | 2023-10-17 | [View Release](https://github.com/actions/checkout/releases/tag/v4.0.0) |
 <details><summary><strong>v4.0.0 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/32135588?v=4" alt="@takost" width="32" height="32" /> <a href="https://github.com/takost">@takost</a>
 
@@ -203,9 +217,9 @@ We are investigating the following issue with this release and have rolled-back 
 * @simonbaird made their first contribution in https://github.com/actions/checkout/pull/1067
 
 **Full Changelog**: https://github.com/actions/checkout/compare/v3...v4.0.0
+<br /><a href="https://github.com/actions/checkout/releases/tag/v4.0.0">View Release</a>
 </details>
 
-| v4 | v4.1.0 | 2023-09-22 | [View Release](https://github.com/actions/checkout/releases/tag/v4.1.0) |
 <details><summary><strong>v4.1.0 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/13227161?v=4" alt="@cory-miller" width="32" height="32" /> <a href="https://github.com/cory-miller">@cory-miller</a>
 
@@ -219,6 +233,7 @@ We are investigating the following issue with this release and have rolled-back 
 * @finleygn made their first contribution in https://github.com/actions/checkout/pull/1396
 
 **Full Changelog**: https://github.com/actions/checkout/compare/v4.0.0...v4.1.0
+<br /><a href="https://github.com/actions/checkout/releases/tag/v4.1.0">View Release</a>
 </details>
 
 
@@ -227,6 +242,18 @@ We are investigating the following issue with this release and have rolled-back 
 | Major | Version | Release Date | Link |
 |-------|---------|-------------|------|
 | v5 | v5.0.0 | 2025-08-21 | [View Release](https://github.com/actions/setup-java/releases/tag/v5.0.0) |
+| v4 | v4.7.1 | 2025-04-09 | [View Release](https://github.com/actions/setup-java/releases/tag/v4.7.1) |
+| v4 | v4.7.0 | 2025-01-29 | [View Release](https://github.com/actions/setup-java/releases/tag/v4.7.0) |
+| v4 | v4.6.0 | 2024-12-18 | [View Release](https://github.com/actions/setup-java/releases/tag/v4.6.0) |
+| v4 | v4.5.0 | 2024-10-24 | [View Release](https://github.com/actions/setup-java/releases/tag/v4.5.0) |
+| v4 | v4.4.0 | 2024-09-24 | [View Release](https://github.com/actions/setup-java/releases/tag/v4.4.0) |
+| v4 | v4.3.0 | 2024-09-09 | [View Release](https://github.com/actions/setup-java/releases/tag/v4.3.0) |
+| v4 | v4.2.2 | 2024-08-05 | [View Release](https://github.com/actions/setup-java/releases/tag/v4.2.2) |
+| v4 | v4.2.1 | 2024-03-14 | [View Release](https://github.com/actions/setup-java/releases/tag/v4.2.1) |
+| v4 | v4.2.0 | 2024-03-13 | [View Release](https://github.com/actions/setup-java/releases/tag/v4.2.0) |
+| v4 | v4.1.0 | 2024-02-28 | [View Release](https://github.com/actions/setup-java/releases/tag/v4.1.0) |
+| v4 | v4.0.0 | 2023-11-29 | [View Release](https://github.com/actions/setup-java/releases/tag/v4.0.0) |
+
 <details><summary><strong>v5.0.0 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/147705296?v=4" alt="@mahabaleshwars" width="32" height="32" /> <a href="https://github.com/mahabaleshwars">@mahabaleshwars</a>
 
@@ -253,9 +280,9 @@ Make sure your runner is updated to this version or newer to use this release. v
 * @salmanmkc made their first contribution in https://github.com/actions/setup-java/pull/888
 
 **Full Changelog**: https://github.com/actions/setup-java/compare/v4...v5.0.0
+<br /><a href="https://github.com/actions/setup-java/releases/tag/v5.0.0">View Release</a>
 </details>
 
-| v4 | v4.7.1 | 2025-04-09 | [View Release](https://github.com/actions/setup-java/releases/tag/v4.7.1) |
 <details><summary><strong>v4.7.1 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/147705296?v=4" alt="@mahabaleshwars" width="32" height="32" /> <a href="https://github.com/mahabaleshwars">@mahabaleshwars</a>
 
@@ -272,9 +299,9 @@ Make sure your runner is updated to this version or newer to use this release. v
 * Upgrade @action/cache to 4.0.3 by @aparnajyothi-y in https://github.com/actions/setup-java/pull/773
 
 **Full Changelog**: https://github.com/actions/setup-java/compare/v4...v4.7.1
+<br /><a href="https://github.com/actions/setup-java/releases/tag/v4.7.1">View Release</a>
 </details>
 
-| v4 | v4.7.0 | 2025-01-29 | [View Release](https://github.com/actions/setup-java/releases/tag/v4.7.0) |
 <details><summary><strong>v4.7.0 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/147705296?v=4" alt="@mahabaleshwars" width="32" height="32" /> <a href="https://github.com/mahabaleshwars">@mahabaleshwars</a>
 
@@ -291,9 +318,9 @@ Make sure your runner is updated to this version or newer to use this release. v
 * @benwells made their first contribution in https://github.com/actions/setup-java/pull/723
 
 **Full Changelog**: https://github.com/actions/setup-java/compare/v4...v4.7.0
+<br /><a href="https://github.com/actions/setup-java/releases/tag/v4.7.0">View Release</a>
 </details>
 
-| v4 | v4.6.0 | 2024-12-18 | [View Release](https://github.com/actions/setup-java/releases/tag/v4.6.0) |
 <details><summary><strong>v4.6.0 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/147705296?v=4" alt="@mahabaleshwars" width="32" height="32" /> <a href="https://github.com/mahabaleshwars">@mahabaleshwars</a>
 
@@ -318,9 +345,9 @@ Make sure your runner is updated to this version or newer to use this release. v
 * @gmitch215 made their first contribution in https://github.com/actions/setup-java/pull/637
 
 **Full Changelog**: https://github.com/actions/setup-java/compare/v4...v4.6.0
+<br /><a href="https://github.com/actions/setup-java/releases/tag/v4.6.0">View Release</a>
 </details>
 
-| v4 | v4.5.0 | 2024-10-24 | [View Release](https://github.com/actions/setup-java/releases/tag/v4.5.0) |
 <details><summary><strong>v4.5.0 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/147705296?v=4" alt="@mahabaleshwars" width="32" height="32" /> <a href="https://github.com/mahabaleshwars">@mahabaleshwars</a>
 
@@ -340,9 +367,9 @@ Make sure your runner is updated to this version or newer to use this release. v
 * @jww3 made their first contribution in https://github.com/actions/setup-java/pull/697
 
 **Full Changelog**: https://github.com/actions/setup-java/compare/v4...v4.5.0
+<br /><a href="https://github.com/actions/setup-java/releases/tag/v4.5.0">View Release</a>
 </details>
 
-| v4 | v4.4.0 | 2024-09-24 | [View Release](https://github.com/actions/setup-java/releases/tag/v4.4.0) |
 <details><summary><strong>v4.4.0 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/147696841?v=4" alt="@aparnajyothi-y" width="32" height="32" /> <a href="https://github.com/aparnajyothi-y">@aparnajyothi-y</a>
 
@@ -374,9 +401,9 @@ Note: This change may break previous cache keys as they will no longer be compat
 * @Zxilly made their first contribution in https://github.com/actions/setup-java/pull/664
 
 **Full Changelog**: https://github.com/actions/setup-java/compare/v4...v4.4.0
+<br /><a href="https://github.com/actions/setup-java/releases/tag/v4.4.0">View Release</a>
 </details>
 
-| v4 | v4.3.0 | 2024-09-09 | [View Release](https://github.com/actions/setup-java/releases/tag/v4.3.0) |
 <details><summary><strong>v4.3.0 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/147705296?v=4" alt="@mahabaleshwars" width="32" height="32" /> <a href="https://github.com/mahabaleshwars">@mahabaleshwars</a>
 
@@ -406,9 +433,9 @@ New Contributors :
 * 	@Shegox made their first contribution in #614
 
 **Full Changelog**: https://github.com/actions/setup-java/compare/v4...v4.3.0
+<br /><a href="https://github.com/actions/setup-java/releases/tag/v4.3.0">View Release</a>
 </details>
 
-| v4 | v4.2.2 | 2024-08-05 | [View Release](https://github.com/actions/setup-java/releases/tag/v4.2.2) |
 <details><summary><strong>v4.2.2 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/147705296?v=4" alt="@mahabaleshwars" width="32" height="32" /> <a href="https://github.com/mahabaleshwars">@mahabaleshwars</a>
 
@@ -425,9 +452,9 @@ New Contributors :
 * Bump undici from 5.28.3 to 5.28.4 and other dependency updates by @dependabot in https://github.com/actions/setup-java/pull/616
 
 **Full Changelog**: https://github.com/actions/setup-java/compare/v4...v4.2.2
+<br /><a href="https://github.com/actions/setup-java/releases/tag/v4.2.2">View Release</a>
 </details>
 
-| v4 | v4.2.1 | 2024-03-14 | [View Release](https://github.com/actions/setup-java/releases/tag/v4.2.1) |
 <details><summary><strong>v4.2.1 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/73516759?v=4" alt="@HarithaVattikuti" width="32" height="32" /> <a href="https://github.com/HarithaVattikuti">@HarithaVattikuti</a>
 
@@ -436,9 +463,9 @@ New Contributors :
 
 
 **Full Changelog**: https://github.com/actions/setup-java/compare/v4...v4.2.1
+<br /><a href="https://github.com/actions/setup-java/releases/tag/v4.2.1">View Release</a>
 </details>
 
-| v4 | v4.2.0 | 2024-03-13 | [View Release](https://github.com/actions/setup-java/releases/tag/v4.2.0) |
 <details><summary><strong>v4.2.0 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/147696841?v=4" alt="@aparnajyothi-y" width="32" height="32" /> <a href="https://github.com/aparnajyothi-y">@aparnajyothi-y</a>
 
@@ -450,9 +477,9 @@ New Contributors :
 ## New Contributors
 * @HarithaVattikuti made their first contribution in https://github.com/actions/setup-java/pull/607
 **Full Changelog**: https://github.com/actions/setup-java/compare/v4...v4.2.0
+<br /><a href="https://github.com/actions/setup-java/releases/tag/v4.2.0">View Release</a>
 </details>
 
-| v4 | v4.1.0 | 2024-02-28 | [View Release](https://github.com/actions/setup-java/releases/tag/v4.1.0) |
 <details><summary><strong>v4.1.0 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/147696841?v=4" alt="@aparnajyothi-y" width="32" height="32" /> <a href="https://github.com/aparnajyothi-y">@aparnajyothi-y</a>
 
@@ -473,9 +500,9 @@ New Contributors :
 * @mahabaleshwars made their first contribution in https://github.com/actions/setup-java/pull/595
 
 **Full Changelog**: https://github.com/actions/setup-java/compare/v4...v4.1.0
+<br /><a href="https://github.com/actions/setup-java/releases/tag/v4.1.0">View Release</a>
 </details>
 
-| v4 | v4.0.0 | 2023-11-29 | [View Release](https://github.com/actions/setup-java/releases/tag/v4.0.0) |
 <details><summary><strong>v4.0.0 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/98037481?v=4" alt="@IvanZosimov" width="32" height="32" /> <a href="https://github.com/IvanZosimov">@IvanZosimov</a>
 
@@ -498,6 +525,7 @@ In the scope of this release, the version of the Node.js runtime was updated to 
 * @itchyny made their first contribution in https://github.com/actions/setup-java/pull/499
 
 **Full Changelog**: https://github.com/actions/setup-java/compare/v3...v4.0.0
+<br /><a href="https://github.com/actions/setup-java/releases/tag/v4.0.0">View Release</a>
 </details>
 
 
@@ -506,6 +534,15 @@ In the scope of this release, the version of the Node.js runtime was updated to 
 | Major | Version | Release Date | Link |
 |-------|---------|-------------|------|
 | v6 | v6.0.0 | 2025-09-04 | [View Release](https://github.com/actions/setup-python/releases/tag/v6.0.0) |
+| v5 | v5.6.0 | 2025-04-24 | [View Release](https://github.com/actions/setup-python/releases/tag/v5.6.0) |
+| v5 | v5.5.0 | 2025-03-25 | [View Release](https://github.com/actions/setup-python/releases/tag/v5.5.0) |
+| v5 | v5.4.0 | 2025-01-28 | [View Release](https://github.com/actions/setup-python/releases/tag/v5.4.0) |
+| v5 | v5.3.0 | 2024-10-24 | [View Release](https://github.com/actions/setup-python/releases/tag/v5.3.0) |
+| v5 | v5.2.0 | 2024-08-29 | [View Release](https://github.com/actions/setup-python/releases/tag/v5.2.0) |
+| v5 | v5.1.1 | 2024-07-10 | [View Release](https://github.com/actions/setup-python/releases/tag/v5.1.1) |
+| v5 | v5.1.0 | 2024-03-26 | [View Release](https://github.com/actions/setup-python/releases/tag/v5.1.0) |
+| v5 | v5.0.0 | 2023-12-06 | [View Release](https://github.com/actions/setup-python/releases/tag/v5.0.0) |
+
 <details><summary><strong>v6.0.0 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/147703874?v=4" alt="@priya-kinthali" width="32" height="32" /> <a href="https://github.com/priya-kinthali">@priya-kinthali</a>
 
@@ -537,9 +574,9 @@ Make sure your runner is on version v2.327.1 or later to ensure compatibility wi
 * @aradkdj made their first contribution in https://github.com/actions/setup-python/pull/1067
 
 **Full Changelog**: https://github.com/actions/setup-python/compare/v5...v6.0.0
+<br /><a href="https://github.com/actions/setup-python/releases/tag/v6.0.0">View Release</a>
 </details>
 
-| v5 | v5.6.0 | 2025-04-24 | [View Release](https://github.com/actions/setup-python/releases/tag/v5.6.0) |
 <details><summary><strong>v5.6.0 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/73516759?v=4" alt="@HarithaVattikuti" width="32" height="32" /> <a href="https://github.com/HarithaVattikuti">@HarithaVattikuti</a>
 
@@ -552,9 +589,9 @@ Make sure your runner is on version v2.327.1 or later to ensure compatibility wi
 
 
 **Full Changelog**: https://github.com/actions/setup-python/compare/v5...v5.6.0
+<br /><a href="https://github.com/actions/setup-python/releases/tag/v5.6.0">View Release</a>
 </details>
 
-| v5 | v5.5.0 | 2025-03-25 | [View Release](https://github.com/actions/setup-python/releases/tag/v5.5.0) |
 <details><summary><strong>v5.5.0 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/147703874?v=4" alt="@priya-kinthali" width="32" height="32" /> <a href="https://github.com/priya-kinthali">@priya-kinthali</a>
 
@@ -575,9 +612,9 @@ Make sure your runner is on version v2.327.1 or later to ensure compatibility wi
 * @mahabaleshwars made their first contribution in https://github.com/actions/setup-python/pull/1043
 
 **Full Changelog**: https://github.com/actions/setup-python/compare/v5...v5.5.0
+<br /><a href="https://github.com/actions/setup-python/releases/tag/v5.5.0">View Release</a>
 </details>
 
-| v5 | v5.4.0 | 2025-01-28 | [View Release](https://github.com/actions/setup-python/releases/tag/v5.4.0) |
 <details><summary><strong>v5.4.0 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/147703874?v=4" alt="@priya-kinthali" width="32" height="32" /> <a href="https://github.com/priya-kinthali">@priya-kinthali</a>
 
@@ -603,9 +640,9 @@ Make sure your runner is on version v2.327.1 or later to ensure compatibility wi
 * @lrq3000 made their first contribution in https://github.com/actions/setup-python/pull/645
 
 **Full Changelog**: https://github.com/actions/setup-python/compare/v5...v5.4.0
+<br /><a href="https://github.com/actions/setup-python/releases/tag/v5.4.0">View Release</a>
 </details>
 
-| v5 | v5.3.0 | 2024-10-24 | [View Release](https://github.com/actions/setup-python/releases/tag/v5.3.0) |
 <details><summary><strong>v5.3.0 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/147703874?v=4" alt="@priya-kinthali" width="32" height="32" /> <a href="https://github.com/priya-kinthali">@priya-kinthali</a>
 
@@ -624,9 +661,9 @@ Make sure your runner is on version v2.327.1 or later to ensure compatibility wi
 * @jww3 made their first contribution in https://github.com/actions/setup-python/pull/963
 
 **Full Changelog**: https://github.com/actions/setup-python/compare/v5...v5.3.0
+<br /><a href="https://github.com/actions/setup-python/releases/tag/v5.3.0">View Release</a>
 </details>
 
-| v5 | v5.2.0 | 2024-08-29 | [View Release](https://github.com/actions/setup-python/releases/tag/v5.2.0) |
 <details><summary><strong>v5.2.0 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/147703874?v=4" alt="@priya-kinthali" width="32" height="32" /> <a href="https://github.com/priya-kinthali">@priya-kinthali</a>
 
@@ -651,9 +688,9 @@ Note: This change may break previous cache keys as they will no longer be compat
 * @aparnajyothi-y made their first contribution in https://github.com/actions/setup-python/pull/923
 
 **Full Changelog**: https://github.com/actions/setup-python/compare/v5...v5.2.0
+<br /><a href="https://github.com/actions/setup-python/releases/tag/v5.2.0">View Release</a>
 </details>
 
-| v5 | v5.1.1 | 2024-07-10 | [View Release](https://github.com/actions/setup-python/releases/tag/v5.1.1) |
 <details><summary><strong>v5.1.1 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/147703874?v=4" alt="@priya-kinthali" width="32" height="32" /> <a href="https://github.com/priya-kinthali">@priya-kinthali</a>
 
@@ -670,9 +707,9 @@ Note: This change may break previous cache keys as they will no longer be compat
 * @gowridurgad made their first contribution in https://github.com/actions/setup-python/pull/873
 
 **Full Changelog**: https://github.com/actions/setup-python/compare/v5...v5.1.1
+<br /><a href="https://github.com/actions/setup-python/releases/tag/v5.1.1">View Release</a>
 </details>
 
-| v5 | v5.1.0 | 2024-03-26 | [View Release](https://github.com/actions/setup-python/releases/tag/v5.1.0) |
 <details><summary><strong>v5.1.0 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/73516759?v=4" alt="@HarithaVattikuti" width="32" height="32" /> <a href="https://github.com/HarithaVattikuti">@HarithaVattikuti</a>
 
@@ -692,9 +729,9 @@ Note: This change may break previous cache keys as they will no longer be compat
 * @priya-kinthali made their first contribution in https://github.com/actions/setup-python/pull/835
 
 **Full Changelog**: https://github.com/actions/setup-python/compare/v5.0.0...v5.1.0
+<br /><a href="https://github.com/actions/setup-python/releases/tag/v5.1.0">View Release</a>
 </details>
 
-| v5 | v5.0.0 | 2023-12-06 | [View Release](https://github.com/actions/setup-python/releases/tag/v5.0.0) |
 <details><summary><strong>v5.0.0 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/28229110?v=4" alt="@dmitry-shibanov" width="32" height="32" /> <a href="https://github.com/dmitry-shibanov">@dmitry-shibanov</a>
 
@@ -703,6 +740,7 @@ In scope of this release, we update node version runtime from node16 to node20 (
 
 
 **Full Changelog**: https://github.com/actions/setup-python/compare/v4.8.0...v5.0.0
+<br /><a href="https://github.com/actions/setup-python/releases/tag/v5.0.0">View Release</a>
 </details>
 
 
@@ -711,6 +749,13 @@ In scope of this release, we update node version runtime from node16 to node20 (
 | Major | Version | Release Date | Link |
 |-------|---------|-------------|------|
 | v5 | v5.0.0 | 2025-09-03 | [View Release](https://github.com/actions/setup-dotnet/releases/tag/v5.0.0) |
+| v4 | v4.3.1 | 2025-03-17 | [View Release](https://github.com/actions/setup-dotnet/releases/tag/v4.3.1) |
+| v4 | v4.3.0 | 2025-01-30 | [View Release](https://github.com/actions/setup-dotnet/releases/tag/v4.3.0) |
+| v4 | v4.2.0 | 2024-12-26 | [View Release](https://github.com/actions/setup-dotnet/releases/tag/v4.2.0) |
+| v4 | v4.1.0 | 2024-10-24 | [View Release](https://github.com/actions/setup-dotnet/releases/tag/v4.1.0) |
+| v4 | v4.0.1 | 2024-07-09 | [View Release](https://github.com/actions/setup-dotnet/releases/tag/v4.0.1) |
+| v4 | v4.0.0 | 2023-12-04 | [View Release](https://github.com/actions/setup-dotnet/releases/tag/v4.0.0) |
+
 <details><summary><strong>v5.0.0 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/187510632?v=4" alt="@lmvysakh" width="32" height="32" /> <a href="https://github.com/lmvysakh">@lmvysakh</a>
 
@@ -739,9 +784,9 @@ Make sure your runner is updated to this version or newer to use this release. v
 * @salmanmkc made their first contribution in https://github.com/actions/setup-dotnet/pull/654
 
 **Full Changelog**: https://github.com/actions/setup-dotnet/compare/v4...v5.0.0
+<br /><a href="https://github.com/actions/setup-dotnet/releases/tag/v5.0.0">View Release</a>
 </details>
 
-| v4 | v4.3.1 | 2025-03-17 | [View Release](https://github.com/actions/setup-dotnet/releases/tag/v4.3.1) |
 <details><summary><strong>v4.3.1 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/73516759?v=4" alt="@HarithaVattikuti" width="32" height="32" /> <a href="https://github.com/HarithaVattikuti">@HarithaVattikuti</a>
 
@@ -753,9 +798,9 @@ As outlined in[ Critical .NET Install Links Are Changing](https://devblogs.micro
 
 
 **Full Changelog**: https://github.com/actions/setup-dotnet/compare/v4...v4.3.1
+<br /><a href="https://github.com/actions/setup-dotnet/releases/tag/v4.3.1">View Release</a>
 </details>
 
-| v4 | v4.3.0 | 2025-01-30 | [View Release](https://github.com/actions/setup-dotnet/releases/tag/v4.3.0) |
 <details><summary><strong>v4.3.0 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/147696841?v=4" alt="@aparnajyothi-y" width="32" height="32" /> <a href="https://github.com/aparnajyothi-y">@aparnajyothi-y</a>
 
@@ -772,9 +817,9 @@ As outlined in[ Critical .NET Install Links Are Changing](https://devblogs.micro
 * @aparnajyothi-y made their first contribution in https://github.com/actions/setup-dotnet/pull/586
 
 **Full Changelog**: https://github.com/actions/setup-dotnet/compare/v4...v4.3.0
+<br /><a href="https://github.com/actions/setup-dotnet/releases/tag/v4.3.0">View Release</a>
 </details>
 
-| v4 | v4.2.0 | 2024-12-26 | [View Release](https://github.com/actions/setup-dotnet/releases/tag/v4.2.0) |
 <details><summary><strong>v4.2.0 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/73516759?v=4" alt="@HarithaVattikuti" width="32" height="32" /> <a href="https://github.com/HarithaVattikuti">@HarithaVattikuti</a>
 
@@ -793,9 +838,9 @@ For updates, follow https://github.com/dotnet/core/issues/9671.
 * @heavymachinery made their first contribution in https://github.com/actions/setup-dotnet/pull/566
 
 **Full Changelog**: https://github.com/actions/setup-dotnet/compare/v4...v4.2.0
+<br /><a href="https://github.com/actions/setup-dotnet/releases/tag/v4.2.0">View Release</a>
 </details>
 
-| v4 | v4.1.0 | 2024-10-24 | [View Release](https://github.com/actions/setup-dotnet/releases/tag/v4.1.0) |
 <details><summary><strong>v4.1.0 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/147696841?v=4" alt="@aparnajyothi-y" width="32" height="32" /> <a href="https://github.com/aparnajyothi-y">@aparnajyothi-y</a>
 
@@ -814,9 +859,9 @@ For updates, follow https://github.com/dotnet/core/issues/9671.
 * @jww3 made their first contribution in https://github.com/actions/setup-dotnet/pull/556
 
 **Full Changelog**: https://github.com/actions/setup-dotnet/compare/v4...v4.1.0
+<br /><a href="https://github.com/actions/setup-dotnet/releases/tag/v4.1.0">View Release</a>
 </details>
 
-| v4 | v4.0.1 | 2024-07-09 | [View Release](https://github.com/actions/setup-dotnet/releases/tag/v4.0.1) |
 <details><summary><strong>v4.0.1 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/147696841?v=4" alt="@aparnajyothi-y" width="32" height="32" /> <a href="https://github.com/aparnajyothi-y">@aparnajyothi-y</a>
 
@@ -834,9 +879,9 @@ For updates, follow https://github.com/dotnet/core/issues/9671.
 * @samuel-w made their first contribution in https://github.com/actions/setup-dotnet/pull/499
 
 **Full Changelog**: https://github.com/actions/setup-dotnet/compare/v4...v4.0.1
+<br /><a href="https://github.com/actions/setup-dotnet/releases/tag/v4.0.1">View Release</a>
 </details>
 
-| v4 | v4.0.0 | 2023-12-04 | [View Release](https://github.com/actions/setup-dotnet/releases/tag/v4.0.0) |
 <details><summary><strong>v4.0.0 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/73516759?v=4" alt="@HarithaVattikuti" width="32" height="32" /> <a href="https://github.com/HarithaVattikuti">@HarithaVattikuti</a>
 
@@ -865,6 +910,7 @@ In setup-dotnet@v3, the dotnet executable was overwritten during each action run
 * @HarithaVattikuti made their first contribution in https://github.com/actions/setup-dotnet/pull/484
 
 **Full Changelog**: https://github.com/actions/setup-dotnet/compare/v3...v4.0.0
+<br /><a href="https://github.com/actions/setup-dotnet/releases/tag/v4.0.0">View Release</a>
 </details>
 
 
@@ -873,6 +919,16 @@ In setup-dotnet@v3, the dotnet executable was overwritten during each action run
 | Major | Version | Release Date | Link |
 |-------|---------|-------------|------|
 | v5 | v5.0.0 | 2025-09-04 | [View Release](https://github.com/actions/setup-node/releases/tag/v5.0.0) |
+| v4 | v4.4.0 | 2025-04-14 | [View Release](https://github.com/actions/setup-node/releases/tag/v4.4.0) |
+| v4 | v4.3.0 | 2025-03-17 | [View Release](https://github.com/actions/setup-node/releases/tag/v4.3.0) |
+| v4 | v4.2.0 | 2025-01-27 | [View Release](https://github.com/actions/setup-node/releases/tag/v4.2.0) |
+| v4 | v4.1.0 | 2024-10-24 | [View Release](https://github.com/actions/setup-node/releases/tag/v4.1.0) |
+| v4 | v4.0.4 | 2024-09-19 | [View Release](https://github.com/actions/setup-node/releases/tag/v4.0.4) |
+| v4 | v4.0.3 | 2024-07-09 | [View Release](https://github.com/actions/setup-node/releases/tag/v4.0.3) |
+| v4 | v4.0.2 | 2024-02-07 | [View Release](https://github.com/actions/setup-node/releases/tag/v4.0.2) |
+| v4 | v4.0.1 | 2023-12-18 | [View Release](https://github.com/actions/setup-node/releases/tag/v4.0.1) |
+| v4 | v4.0.0 | 2023-10-23 | [View Release](https://github.com/actions/setup-node/releases/tag/v4.0.0) |
+
 <details><summary><strong>v5.0.0 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/159780674?v=4" alt="@gowridurgad" width="32" height="32" /> <a href="https://github.com/gowridurgad">@gowridurgad</a>
 
@@ -907,9 +963,9 @@ Make sure your runner is on version v2.327.1 or later to ensure compatibility wi
 * @salmanmkc made their first contribution in https://github.com/actions/setup-node/pull/1325
 
 **Full Changelog**: https://github.com/actions/setup-node/compare/v4...v5.0.0
+<br /><a href="https://github.com/actions/setup-node/releases/tag/v5.0.0">View Release</a>
 </details>
 
-| v4 | v4.4.0 | 2025-04-14 | [View Release](https://github.com/actions/setup-node/releases/tag/v4.4.0) |
 <details><summary><strong>v4.4.0 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/159780674?v=4" alt="@gowridurgad" width="32" height="32" /> <a href="https://github.com/gowridurgad">@gowridurgad</a>
 
@@ -928,9 +984,9 @@ Make sure your runner is on version v2.327.1 or later to ensure compatibility wi
 * @marco-ippolito made their first contribution in https://github.com/actions/setup-node/pull/1240
 
 **Full Changelog**: https://github.com/actions/setup-node/compare/v4...v4.4.0
+<br /><a href="https://github.com/actions/setup-node/releases/tag/v4.4.0">View Release</a>
 </details>
 
-| v4 | v4.3.0 | 2025-03-17 | [View Release](https://github.com/actions/setup-node/releases/tag/v4.3.0) |
 <details><summary><strong>v4.3.0 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/159780674?v=4" alt="@gowridurgad" width="32" height="32" /> <a href="https://github.com/gowridurgad">@gowridurgad</a>
 
@@ -945,9 +1001,9 @@ Make sure your runner is on version v2.327.1 or later to ensure compatibility wi
 * @gowridurgad made their first contribution in https://github.com/actions/setup-node/pull/1251
 
 **Full Changelog**: https://github.com/actions/setup-node/compare/v4...v4.3.0
+<br /><a href="https://github.com/actions/setup-node/releases/tag/v4.3.0">View Release</a>
 </details>
 
-| v4 | v4.2.0 | 2025-01-27 | [View Release](https://github.com/actions/setup-node/releases/tag/v4.2.0) |
 <details><summary><strong>v4.2.0 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/159780674?v=4" alt="@gowridurgad" width="32" height="32" /> <a href="https://github.com/gowridurgad">@gowridurgad</a>
 
@@ -967,9 +1023,9 @@ Make sure your runner is on version v2.327.1 or later to ensure compatibility wi
 * @benwells made their first contribution in https://github.com/actions/setup-node/pull/1193
 
 **Full Changelog**: https://github.com/actions/setup-node/compare/v4...v4.2.0
+<br /><a href="https://github.com/actions/setup-node/releases/tag/v4.2.0">View Release</a>
 </details>
 
-| v4 | v4.1.0 | 2024-10-24 | [View Release](https://github.com/actions/setup-node/releases/tag/v4.1.0) |
 <details><summary><strong>v4.1.0 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/159780674?v=4" alt="@gowridurgad" width="32" height="32" /> <a href="https://github.com/gowridurgad">@gowridurgad</a>
 
@@ -987,9 +1043,9 @@ Note: This change may break previous cache keys as they will no longer be compat
 * @pengx17 made their first contribution in https://github.com/actions/setup-node/pull/843
 
 **Full Changelog**: https://github.com/actions/setup-node/compare/v4...v4.1.0
+<br /><a href="https://github.com/actions/setup-node/releases/tag/v4.1.0">View Release</a>
 </details>
 
-| v4 | v4.0.4 | 2024-09-19 | [View Release](https://github.com/actions/setup-node/releases/tag/v4.0.4) |
 <details><summary><strong>v4.0.4 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/147705955?v=4" alt="@priyagupta108" width="32" height="32" /> <a href="https://github.com/priyagupta108">@priyagupta108</a>
 
@@ -1009,9 +1065,9 @@ Note: This change may break previous cache keys as they will no longer be compat
 * @fulldecent made their first contribution in https://github.com/actions/setup-node/pull/1124
 
 **Full Changelog**: https://github.com/actions/setup-node/compare/v4...v4.0.4
+<br /><a href="https://github.com/actions/setup-node/releases/tag/v4.0.4">View Release</a>
 </details>
 
-| v4 | v4.0.3 | 2024-07-09 | [View Release](https://github.com/actions/setup-node/releases/tag/v4.0.3) |
 <details><summary><strong>v4.0.3 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/147696841?v=4" alt="@aparnajyothi-y" width="32" height="32" /> <a href="https://github.com/aparnajyothi-y">@aparnajyothi-y</a>
 
@@ -1031,9 +1087,9 @@ Note: This change may break previous cache keys as they will no longer be compat
 * @HarithaVattikuti made their first contribution in https://github.com/actions/setup-node/pull/1041
 
 **Full Changelog**: https://github.com/actions/setup-node/compare/v4...v4.0.3
+<br /><a href="https://github.com/actions/setup-node/releases/tag/v4.0.3">View Release</a>
 </details>
 
-| v4 | v4.0.2 | 2024-02-07 | [View Release](https://github.com/actions/setup-node/releases/tag/v4.0.2) |
 <details><summary><strong>v4.0.2 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/73516759?v=4" alt="@HarithaVattikuti" width="32" height="32" /> <a href="https://github.com/HarithaVattikuti">@HarithaVattikuti</a>
 
@@ -1045,9 +1101,9 @@ Note: This change may break previous cache keys as they will no longer be compat
 * @ThisIsManta made their first contribution in https://github.com/actions/setup-node/pull/921
 
 **Full Changelog**: https://github.com/actions/setup-node/compare/v4.0.1...v4.0.2
+<br /><a href="https://github.com/actions/setup-node/releases/tag/v4.0.2">View Release</a>
 </details>
 
-| v4 | v4.0.1 | 2023-12-18 | [View Release](https://github.com/actions/setup-node/releases/tag/v4.0.1) |
 <details><summary><strong>v4.0.1 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/147696841?v=4" alt="@aparnajyothi-y" width="32" height="32" /> <a href="https://github.com/aparnajyothi-y">@aparnajyothi-y</a>
 
@@ -1070,9 +1126,9 @@ Note: This change may break previous cache keys as they will no longer be compat
 
 
 **Full Changelog**: https://github.com/actions/setup-node/compare/v4...v4.0.1
+<br /><a href="https://github.com/actions/setup-node/releases/tag/v4.0.1">View Release</a>
 </details>
 
-| v4 | v4.0.0 | 2023-10-23 | [View Release](https://github.com/actions/setup-node/releases/tag/v4.0.0) |
 <details><summary><strong>v4.0.0 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/28229110?v=4" alt="@dmitry-shibanov" width="32" height="32" /> <a href="https://github.com/dmitry-shibanov">@dmitry-shibanov</a>
 
@@ -1087,6 +1143,7 @@ Besides, release contains such changes as:
 * @gmembre-zenika made their first contribution in https://github.com/actions/setup-node/pull/868
 
 **Full Changelog**: https://github.com/actions/setup-node/compare/v3...v4.0.0
+<br /><a href="https://github.com/actions/setup-node/releases/tag/v4.0.0">View Release</a>
 </details>
 
 
@@ -1095,6 +1152,33 @@ Besides, release contains such changes as:
 | Major | Version | Release Date | Link |
 |-------|---------|-------------|------|
 | v4 | v4.6.2 | 2025-03-19 | [View Release](https://github.com/actions/upload-artifact/releases/tag/v4.6.2) |
+| v4 | v4.6.1 | 2025-02-21 | [View Release](https://github.com/actions/upload-artifact/releases/tag/v4.6.1) |
+| v4 | v4.6.0 | 2025-01-09 | [View Release](https://github.com/actions/upload-artifact/releases/tag/v4.6.0) |
+| v4 | v4.5.0 | 2024-12-17 | [View Release](https://github.com/actions/upload-artifact/releases/tag/v4.5.0) |
+| v4 | v4.4.3 | 2024-10-09 | [View Release](https://github.com/actions/upload-artifact/releases/tag/v4.4.3) |
+| v4 | v4.4.2 | 2024-10-08 | [View Release](https://github.com/actions/upload-artifact/releases/tag/v4.4.2) |
+| v4 | v4.4.1 | 2024-10-07 | [View Release](https://github.com/actions/upload-artifact/releases/tag/v4.4.1) |
+| v4 | v4.4.0 | 2024-08-30 | [View Release](https://github.com/actions/upload-artifact/releases/tag/v4.4.0) |
+| v4 | v4.3.6 | 2024-08-06 | [View Release](https://github.com/actions/upload-artifact/releases/tag/v4.3.6) |
+| v4 | v4.3.5 | 2024-08-02 | [View Release](https://github.com/actions/upload-artifact/releases/tag/v4.3.5) |
+| v4 | v4.3.4 | 2024-07-05 | [View Release](https://github.com/actions/upload-artifact/releases/tag/v4.3.4) |
+| v4 | v4.3.3 | 2024-04-22 | [View Release](https://github.com/actions/upload-artifact/releases/tag/v4.3.3) |
+| v4 | v4.3.2 | 2024-04-18 | [View Release](https://github.com/actions/upload-artifact/releases/tag/v4.3.2) |
+| v4 | v4.3.1 | 2024-02-05 | [View Release](https://github.com/actions/upload-artifact/releases/tag/v4.3.1) |
+| v4 | v4.3.0 | 2024-01-23 | [View Release](https://github.com/actions/upload-artifact/releases/tag/v4.3.0) |
+| v4 | v4.2.0 | 2024-01-18 | [View Release](https://github.com/actions/upload-artifact/releases/tag/v4.2.0) |
+| v4 | v4.1.0 | 2024-01-12 | [View Release](https://github.com/actions/upload-artifact/releases/tag/v4.1.0) |
+| v4 | v4.0.0 | 2023-12-14 | [View Release](https://github.com/actions/upload-artifact/releases/tag/v4.0.0) |
+| v3 | v3.2.1-node20 | 2024-09-02 | [View Release](https://github.com/actions/upload-artifact/releases/tag/v3.2.1-node20) |
+| v3 | v3.2.1 | 2024-09-02 | [View Release](https://github.com/actions/upload-artifact/releases/tag/v3.2.1) |
+| v3 | v3.2.0-node20 | 2024-08-30 | [View Release](https://github.com/actions/upload-artifact/releases/tag/v3.2.0-node20) |
+| v3 | v3.2.0 | 2024-08-30 | [View Release](https://github.com/actions/upload-artifact/releases/tag/v3.2.0) |
+| v3 | v3.1.3 | 2023-09-06 | [View Release](https://github.com/actions/upload-artifact/releases/tag/v3.1.3) |
+| v3 | v3.1.2 | 2023-01-06 | [View Release](https://github.com/actions/upload-artifact/releases/tag/v3.1.2) |
+| v3 | v3.1.1 | 2022-10-21 | [View Release](https://github.com/actions/upload-artifact/releases/tag/v3.1.1) |
+| v3 | v3.1.0 | 2022-05-20 | [View Release](https://github.com/actions/upload-artifact/releases/tag/v3.1.0) |
+| v3 | v3.0.0 | 2022-03-03 | [View Release](https://github.com/actions/upload-artifact/releases/tag/v3.0.0) |
+
 <details><summary><strong>v4.6.2 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/10119737?v=4" alt="@yacaovsnc" width="32" height="32" /> <a href="https://github.com/yacaovsnc">@yacaovsnc</a>
 
@@ -1105,9 +1189,9 @@ Besides, release contains such changes as:
 * @salmanmkc made their first contribution in https://github.com/actions/upload-artifact/pull/685
 
 **Full Changelog**: https://github.com/actions/upload-artifact/compare/v4...v4.6.2
+<br /><a href="https://github.com/actions/upload-artifact/releases/tag/v4.6.2">View Release</a>
 </details>
 
-| v4 | v4.6.1 | 2025-02-21 | [View Release](https://github.com/actions/upload-artifact/releases/tag/v4.6.1) |
 <details><summary><strong>v4.6.1 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/10119737?v=4" alt="@yacaovsnc" width="32" height="32" /> <a href="https://github.com/yacaovsnc">@yacaovsnc</a>
 
@@ -1116,9 +1200,9 @@ Besides, release contains such changes as:
 
 
 **Full Changelog**: https://github.com/actions/upload-artifact/compare/v4...v4.6.1
+<br /><a href="https://github.com/actions/upload-artifact/releases/tag/v4.6.1">View Release</a>
 </details>
 
-| v4 | v4.6.0 | 2025-01-09 | [View Release](https://github.com/actions/upload-artifact/releases/tag/v4.6.0) |
 <details><summary><strong>v4.6.0 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/10119737?v=4" alt="@yacaovsnc" width="32" height="32" /> <a href="https://github.com/yacaovsnc">@yacaovsnc</a>
 
@@ -1127,9 +1211,9 @@ Besides, release contains such changes as:
 
 
 **Full Changelog**: https://github.com/actions/upload-artifact/compare/v4...v4.6.0
+<br /><a href="https://github.com/actions/upload-artifact/releases/tag/v4.6.0">View Release</a>
 </details>
 
-| v4 | v4.5.0 | 2024-12-17 | [View Release](https://github.com/actions/upload-artifact/releases/tag/v4.5.0) |
 <details><summary><strong>v4.5.0 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/16991201?v=4" alt="@robherley" width="32" height="32" /> <a href="https://github.com/robherley">@robherley</a>
 
@@ -1142,9 +1226,9 @@ Besides, release contains such changes as:
 * @bdehamer made their first contribution in https://github.com/actions/upload-artifact/pull/656
 
 **Full Changelog**: https://github.com/actions/upload-artifact/compare/v4.4.3...v4.5.0
+<br /><a href="https://github.com/actions/upload-artifact/releases/tag/v4.5.0">View Release</a>
 </details>
 
-| v4 | v4.4.3 | 2024-10-09 | [View Release](https://github.com/actions/upload-artifact/releases/tag/v4.4.3) |
 <details><summary><strong>v4.4.3 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/16631042?v=4" alt="@joshmgross" width="32" height="32" /> <a href="https://github.com/joshmgross">@joshmgross</a>
 
@@ -1153,9 +1237,9 @@ Besides, release contains such changes as:
 
 
 **Full Changelog**: https://github.com/actions/upload-artifact/compare/v4.4.2...v4.4.3
+<br /><a href="https://github.com/actions/upload-artifact/releases/tag/v4.4.3">View Release</a>
 </details>
 
-| v4 | v4.4.2 | 2024-10-08 | [View Release](https://github.com/actions/upload-artifact/releases/tag/v4.4.2) |
 <details><summary><strong>v4.4.2 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/16991201?v=4" alt="@robherley" width="32" height="32" /> <a href="https://github.com/robherley">@robherley</a>
 
@@ -1165,9 +1249,9 @@ Besides, release contains such changes as:
 
 
 **Full Changelog**: https://github.com/actions/upload-artifact/compare/v4.4.1...v4.4.2
+<br /><a href="https://github.com/actions/upload-artifact/releases/tag/v4.4.2">View Release</a>
 </details>
 
-| v4 | v4.4.1 | 2024-10-07 | [View Release](https://github.com/actions/upload-artifact/releases/tag/v4.4.1) |
 <details><summary><strong>v4.4.1 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/16991201?v=4" alt="@robherley" width="32" height="32" /> <a href="https://github.com/robherley">@robherley</a>
 
@@ -1180,9 +1264,9 @@ Besides, release contains such changes as:
 * @Jcambass made their first contribution in https://github.com/actions/upload-artifact/pull/621
 
 **Full Changelog**: https://github.com/actions/upload-artifact/compare/v4.4.0...v4.4.1
+<br /><a href="https://github.com/actions/upload-artifact/releases/tag/v4.4.1">View Release</a>
 </details>
 
-| v4 | v4.4.0 | 2024-08-30 | [View Release](https://github.com/actions/upload-artifact/releases/tag/v4.4.0) |
 <details><summary><strong>v4.4.0 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/16631042?v=4" alt="@joshmgross" width="32" height="32" /> <a href="https://github.com/joshmgross">@joshmgross</a>
 
@@ -1198,9 +1282,9 @@ See ["Notice of upcoming deprecations and breaking changes in GitHub Actions run
 
 
 **Full Changelog**: https://github.com/actions/upload-artifact/compare/v4.3.6...v4.4.0
+<br /><a href="https://github.com/actions/upload-artifact/releases/tag/v4.4.0">View Release</a>
 </details>
 
-| v4 | v4.3.6 | 2024-08-06 | [View Release](https://github.com/actions/upload-artifact/releases/tag/v4.3.6) |
 <details><summary><strong>v4.3.6 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/16991201?v=4" alt="@robherley" width="32" height="32" /> <a href="https://github.com/robherley">@robherley</a>
 
@@ -1209,9 +1293,9 @@ See ["Notice of upcoming deprecations and breaking changes in GitHub Actions run
 
 
 **Full Changelog**: https://github.com/actions/upload-artifact/compare/v4...v4.3.6
+<br /><a href="https://github.com/actions/upload-artifact/releases/tag/v4.3.6">View Release</a>
 </details>
 
-| v4 | v4.3.5 | 2024-08-02 | [View Release](https://github.com/actions/upload-artifact/releases/tag/v4.3.5) |
 <details><summary><strong>v4.3.5 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/16991201?v=4" alt="@robherley" width="32" height="32" /> <a href="https://github.com/robherley">@robherley</a>
 
@@ -1222,9 +1306,9 @@ See ["Notice of upcoming deprecations and breaking changes in GitHub Actions run
 
 
 **Full Changelog**: https://github.com/actions/upload-artifact/compare/v4.3.4...v4.3.5
+<br /><a href="https://github.com/actions/upload-artifact/releases/tag/v4.3.5">View Release</a>
 </details>
 
-| v4 | v4.3.4 | 2024-07-05 | [View Release](https://github.com/actions/upload-artifact/releases/tag/v4.3.4) |
 <details><summary><strong>v4.3.4 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/16991201?v=4" alt="@robherley" width="32" height="32" /> <a href="https://github.com/robherley">@robherley</a>
 
@@ -1233,9 +1317,9 @@ See ["Notice of upcoming deprecations and breaking changes in GitHub Actions run
 
 
 **Full Changelog**: https://github.com/actions/upload-artifact/compare/v4.3.3...v4.3.4
+<br /><a href="https://github.com/actions/upload-artifact/releases/tag/v4.3.4">View Release</a>
 </details>
 
-| v4 | v4.3.3 | 2024-04-22 | [View Release](https://github.com/actions/upload-artifact/releases/tag/v4.3.3) |
 <details><summary><strong>v4.3.3 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/28715808?v=4" alt="@eggyhead" width="32" height="32" /> <a href="https://github.com/eggyhead">@eggyhead</a>
 
@@ -1244,9 +1328,9 @@ See ["Notice of upcoming deprecations and breaking changes in GitHub Actions run
 
 
 **Full Changelog**: https://github.com/actions/upload-artifact/compare/v4.3.2...v4.3.3
+<br /><a href="https://github.com/actions/upload-artifact/releases/tag/v4.3.3">View Release</a>
 </details>
 
-| v4 | v4.3.2 | 2024-04-18 | [View Release](https://github.com/actions/upload-artifact/releases/tag/v4.3.2) |
 <details><summary><strong>v4.3.2 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/28715808?v=4" alt="@eggyhead" width="32" height="32" /> <a href="https://github.com/eggyhead">@eggyhead</a>
 
@@ -1260,16 +1344,16 @@ See ["Notice of upcoming deprecations and breaking changes in GitHub Actions run
 * @andrewakim made their first contribution in https://github.com/actions/upload-artifact/pull/523
 
 **Full Changelog**: https://github.com/actions/upload-artifact/compare/v4.3.1...v4.3.2
+<br /><a href="https://github.com/actions/upload-artifact/releases/tag/v4.3.2">View Release</a>
 </details>
 
-| v4 | v4.3.1 | 2024-02-05 | [View Release](https://github.com/actions/upload-artifact/releases/tag/v4.3.1) |
 <details><summary><strong>v4.3.1 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/28715808?v=4" alt="@eggyhead" width="32" height="32" /> <a href="https://github.com/eggyhead">@eggyhead</a>
 
 - Bump @actions/artifacts to latest version to include [updated GHES host check](https://github.com/actions/toolkit/pull/1648)
+<br /><a href="https://github.com/actions/upload-artifact/releases/tag/v4.3.1">View Release</a>
 </details>
 
-| v4 | v4.3.0 | 2024-01-23 | [View Release](https://github.com/actions/upload-artifact/releases/tag/v4.3.0) |
 <details><summary><strong>v4.3.0 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/16991201?v=4" alt="@robherley" width="32" height="32" /> <a href="https://github.com/robherley">@robherley</a>
 
@@ -1279,9 +1363,9 @@ See ["Notice of upcoming deprecations and breaking changes in GitHub Actions run
 
 
 **Full Changelog**: https://github.com/actions/upload-artifact/compare/v4...v4.3.0
+<br /><a href="https://github.com/actions/upload-artifact/releases/tag/v4.3.0">View Release</a>
 </details>
 
-| v4 | v4.2.0 | 2024-01-18 | [View Release](https://github.com/actions/upload-artifact/releases/tag/v4.2.0) |
 <details><summary><strong>v4.2.0 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/16991201?v=4" alt="@robherley" width="32" height="32" /> <a href="https://github.com/robherley">@robherley</a>
 
@@ -1290,9 +1374,9 @@ See ["Notice of upcoming deprecations and breaking changes in GitHub Actions run
 
 
 **Full Changelog**: https://github.com/actions/upload-artifact/compare/v4...v4.2.0
+<br /><a href="https://github.com/actions/upload-artifact/releases/tag/v4.2.0">View Release</a>
 </details>
 
-| v4 | v4.1.0 | 2024-01-12 | [View Release](https://github.com/actions/upload-artifact/releases/tag/v4.1.0) |
 <details><summary><strong>v4.1.0 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/16991201?v=4" alt="@robherley" width="32" height="32" /> <a href="https://github.com/robherley">@robherley</a>
 
@@ -1306,9 +1390,9 @@ See ["Notice of upcoming deprecations and breaking changes in GitHub Actions run
 * @samuelwine made their first contribution in https://github.com/actions/upload-artifact/pull/492
 
 **Full Changelog**: https://github.com/actions/upload-artifact/compare/v4...v4.1.0
+<br /><a href="https://github.com/actions/upload-artifact/releases/tag/v4.1.0">View Release</a>
 </details>
 
-| v4 | v4.0.0 | 2023-12-14 | [View Release](https://github.com/actions/upload-artifact/releases/tag/v4.0.0) |
 <details><summary><strong>v4.0.0 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/16991201?v=4" alt="@robherley" width="32" height="32" /> <a href="https://github.com/robherley">@robherley</a>
 
@@ -1328,9 +1412,9 @@ For more information, please see:
 * @vmjoseph made their first contribution in https://github.com/actions/upload-artifact/pull/464
 
 **Full Changelog**: https://github.com/actions/upload-artifact/compare/v3...v4.0.0
+<br /><a href="https://github.com/actions/upload-artifact/releases/tag/v4.0.0">View Release</a>
 </details>
 
-| v3 | v3.2.1-node20 | 2024-09-02 | [View Release](https://github.com/actions/upload-artifact/releases/tag/v3.2.1-node20) |
 <details><summary><strong>v3.2.1-node20 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/16631042?v=4" alt="@joshmgross" width="32" height="32" /> <a href="https://github.com/joshmgross">@joshmgross</a>
 
@@ -1342,9 +1426,9 @@ This fixes the `include-hidden-files` input introduced in https://github.com/act
 
 
 **Full Changelog**: https://github.com/actions/upload-artifact/compare/v3.2.0-node20...v3.2.1-node20
+<br /><a href="https://github.com/actions/upload-artifact/releases/tag/v3.2.1-node20">View Release</a>
 </details>
 
-| v3 | v3.2.1 | 2024-09-02 | [View Release](https://github.com/actions/upload-artifact/releases/tag/v3.2.1) |
 <details><summary><strong>v3.2.1 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/16631042?v=4" alt="@joshmgross" width="32" height="32" /> <a href="https://github.com/joshmgross">@joshmgross</a>
 
@@ -1356,9 +1440,9 @@ This fixes the `include-hidden-files` input introduced in https://github.com/act
 
 
 **Full Changelog**: https://github.com/actions/upload-artifact/compare/v3.2.0...v3.2.1
+<br /><a href="https://github.com/actions/upload-artifact/releases/tag/v3.2.1">View Release</a>
 </details>
 
-| v3 | v3.2.0-node20 | 2024-08-30 | [View Release](https://github.com/actions/upload-artifact/releases/tag/v3.2.0-node20) |
 <details><summary><strong>v3.2.0-node20 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/16631042?v=4" alt="@joshmgross" width="32" height="32" /> <a href="https://github.com/joshmgross">@joshmgross</a>
 
@@ -1376,9 +1460,9 @@ See ["Notice of upcoming deprecations and breaking changes in GitHub Actions run
 * @SrRyan made their first contribution in https://github.com/actions/upload-artifact/pull/604
 
 **Full Changelog**: https://github.com/actions/upload-artifact/compare/97a0fba1372883ab732affbe8f94b823f91727db...v3.2.0-node20
+<br /><a href="https://github.com/actions/upload-artifact/releases/tag/v3.2.0-node20">View Release</a>
 </details>
 
-| v3 | v3.2.0 | 2024-08-30 | [View Release](https://github.com/actions/upload-artifact/releases/tag/v3.2.0) |
 <details><summary><strong>v3.2.0 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/16631042?v=4" alt="@joshmgross" width="32" height="32" /> <a href="https://github.com/joshmgross">@joshmgross</a>
 
@@ -1394,9 +1478,9 @@ See ["Notice of upcoming deprecations and breaking changes in GitHub Actions run
 
 
 **Full Changelog**: https://github.com/actions/upload-artifact/compare/v3.1.3...v3.2.0
+<br /><a href="https://github.com/actions/upload-artifact/releases/tag/v3.2.0">View Release</a>
 </details>
 
-| v3 | v3.1.3 | 2023-09-06 | [View Release](https://github.com/actions/upload-artifact/releases/tag/v3.1.3) |
 <details><summary><strong>v3.1.3 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/9900117?v=4" alt="@bethanyj28" width="32" height="32" /> <a href="https://github.com/bethanyj28">@bethanyj28</a>
 
@@ -1406,33 +1490,33 @@ See ["Notice of upcoming deprecations and breaking changes in GitHub Actions run
 
 
 **Full Changelog**: https://github.com/actions/upload-artifact/compare/v3...v3.1.3
+<br /><a href="https://github.com/actions/upload-artifact/releases/tag/v3.1.3">View Release</a>
 </details>
 
-| v3 | v3.1.2 | 2023-01-06 | [View Release](https://github.com/actions/upload-artifact/releases/tag/v3.1.2) |
 <details><summary><strong>v3.1.2 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/16109154?v=4" alt="@konradpabjan" width="32" height="32" /> <a href="https://github.com/konradpabjan">@konradpabjan</a>
 
 - Update all `@actions/*` NPM packages to their latest versions- #374 
 - Update all dev dependencies to their most recent versions - #375 
+<br /><a href="https://github.com/actions/upload-artifact/releases/tag/v3.1.2">View Release</a>
 </details>
 
-| v3 | v3.1.1 | 2022-10-21 | [View Release](https://github.com/actions/upload-artifact/releases/tag/v3.1.1) |
 <details><summary><strong>v3.1.1 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/16109154?v=4" alt="@konradpabjan" width="32" height="32" /> <a href="https://github.com/konradpabjan">@konradpabjan</a>
 
 - Update actions/core package to latest version to remove `set-output` deprecation warning [#351](https://github.com/actions/upload-artifact/issues/351)
+<br /><a href="https://github.com/actions/upload-artifact/releases/tag/v3.1.1">View Release</a>
 </details>
 
-| v3 | v3.1.0 | 2022-05-20 | [View Release](https://github.com/actions/upload-artifact/releases/tag/v3.1.0) |
 <details><summary><strong>v3.1.0 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/16991201?v=4" alt="@robherley" width="32" height="32" /> <a href="https://github.com/robherley">@robherley</a>
 
 ## What's Changed
 - Bump @actions/artifact to v1.1.0 (https://github.com/actions/upload-artifact/pull/327)
   - Adds checksum headers on artifact upload (https://github.com/actions/toolkit/pull/1095) (https://github.com/actions/toolkit/pull/1063)
+<br /><a href="https://github.com/actions/upload-artifact/releases/tag/v3.1.0">View Release</a>
 </details>
 
-| v3 | v3.0.0 | 2022-03-03 | [View Release](https://github.com/actions/upload-artifact/releases/tag/v3.0.0) |
 <details><summary><strong>v3.0.0 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/7937889?v=4" alt="@jtamsut" width="32" height="32" /> <a href="https://github.com/jtamsut">@jtamsut</a>
 
@@ -1442,6 +1526,7 @@ See ["Notice of upcoming deprecations and breaking changes in GitHub Actions run
 
 ### Breaking Changes
 With the update to Node 16, all scripts will now be run with Node 16 rather than Node 12.
+<br /><a href="https://github.com/actions/upload-artifact/releases/tag/v3.0.0">View Release</a>
 </details>
 
 
@@ -1450,6 +1535,21 @@ With the update to Node 16, all scripts will now be run with Node 16 rather than
 | Major | Version | Release Date | Link |
 |-------|---------|-------------|------|
 | v5 | v5.0.0 | 2025-08-05 | [View Release](https://github.com/actions/download-artifact/releases/tag/v5.0.0) |
+| v4 | v4.3.0 | 2025-04-24 | [View Release](https://github.com/actions/download-artifact/releases/tag/v4.3.0) |
+| v4 | v4.2.1 | 2025-03-19 | [View Release](https://github.com/actions/download-artifact/releases/tag/v4.2.1) |
+| v4 | v4.2.0 | 2025-03-18 | [View Release](https://github.com/actions/download-artifact/releases/tag/v4.2.0) |
+| v4 | v4.1.9 | 2025-02-25 | [View Release](https://github.com/actions/download-artifact/releases/tag/v4.1.9) |
+| v4 | v4.1.8 | 2024-07-05 | [View Release](https://github.com/actions/download-artifact/releases/tag/v4.1.8) |
+| v4 | v4.1.7 | 2024-04-24 | [View Release](https://github.com/actions/download-artifact/releases/tag/v4.1.7) |
+| v4 | v4.1.6 | 2024-04-22 | [View Release](https://github.com/actions/download-artifact/releases/tag/v4.1.6) |
+| v4 | v4.1.5 | 2024-04-18 | [View Release](https://github.com/actions/download-artifact/releases/tag/v4.1.5) |
+| v4 | v4.1.4 | 2024-03-01 | [View Release](https://github.com/actions/download-artifact/releases/tag/v4.1.4) |
+| v4 | v4.1.3 | 2024-02-26 | [View Release](https://github.com/actions/download-artifact/releases/tag/v4.1.3) |
+| v4 | v4.1.2 | 2024-02-05 | [View Release](https://github.com/actions/download-artifact/releases/tag/v4.1.2) |
+| v4 | v4.1.1 | 2024-01-10 | [View Release](https://github.com/actions/download-artifact/releases/tag/v4.1.1) |
+| v4 | v4.1.0 | 2023-12-18 | [View Release](https://github.com/actions/download-artifact/releases/tag/v4.1.0) |
+| v4 | v4.0.0 | 2023-12-14 | [View Release](https://github.com/actions/download-artifact/releases/tag/v4.0.0) |
+
 <details><summary><strong>v5.0.0 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/10119737?v=4" alt="@yacaovsnc" width="32" height="32" /> <a href="https://github.com/yacaovsnc">@yacaovsnc</a>
 
@@ -1512,9 +1612,9 @@ You download **single artifacts by ID** and your workflows expect the nested dir
 * @nebuk89 made their first contribution in https://github.com/actions/download-artifact/pull/407
 
 **Full Changelog**: https://github.com/actions/download-artifact/compare/v4...v5.0.0
+<br /><a href="https://github.com/actions/download-artifact/releases/tag/v5.0.0">View Release</a>
 </details>
 
-| v4 | v4.3.0 | 2025-04-24 | [View Release](https://github.com/actions/download-artifact/releases/tag/v4.3.0) |
 <details><summary><strong>v4.3.0 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/16991201?v=4" alt="@robherley" width="32" height="32" /> <a href="https://github.com/robherley">@robherley</a>
 
@@ -1527,9 +1627,9 @@ You download **single artifacts by ID** and your workflows expect the nested dir
 * @GrantBirki made their first contribution in https://github.com/actions/download-artifact/pull/401
 
 **Full Changelog**: https://github.com/actions/download-artifact/compare/v4.2.1...v4.3.0
+<br /><a href="https://github.com/actions/download-artifact/releases/tag/v4.3.0">View Release</a>
 </details>
 
-| v4 | v4.2.1 | 2025-03-19 | [View Release](https://github.com/actions/download-artifact/releases/tag/v4.2.1) |
 <details><summary><strong>v4.2.1 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/16991201?v=4" alt="@robherley" width="32" height="32" /> <a href="https://github.com/robherley">@robherley</a>
 
@@ -1539,9 +1639,9 @@ You download **single artifacts by ID** and your workflows expect the nested dir
 
 
 **Full Changelog**: https://github.com/actions/download-artifact/compare/v4.2.0...v4.2.1
+<br /><a href="https://github.com/actions/download-artifact/releases/tag/v4.2.1">View Release</a>
 </details>
 
-| v4 | v4.2.0 | 2025-03-18 | [View Release](https://github.com/actions/download-artifact/releases/tag/v4.2.0) |
 <details><summary><strong>v4.2.0 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/67866556?v=4" alt="@JoannaaKL" width="32" height="32" /> <a href="https://github.com/JoannaaKL">@JoannaaKL</a>
 
@@ -1554,9 +1654,9 @@ You download **single artifacts by ID** and your workflows expect the nested dir
 * @GhadimiR made their first contribution in https://github.com/actions/download-artifact/pull/383
 
 **Full Changelog**: https://github.com/actions/download-artifact/compare/v4.1.9...v4.2.0
+<br /><a href="https://github.com/actions/download-artifact/releases/tag/v4.2.0">View Release</a>
 </details>
 
-| v4 | v4.1.9 | 2025-02-25 | [View Release](https://github.com/actions/download-artifact/releases/tag/v4.1.9) |
 <details><summary><strong>v4.1.9 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/10119737?v=4" alt="@yacaovsnc" width="32" height="32" /> <a href="https://github.com/yacaovsnc">@yacaovsnc</a>
 
@@ -1573,9 +1673,9 @@ You download **single artifacts by ID** and your workflows expect the nested dir
 * @yacaovsnc made their first contribution in https://github.com/actions/download-artifact/pull/380
 
 **Full Changelog**: https://github.com/actions/download-artifact/compare/v4.1.8...v4.1.9
+<br /><a href="https://github.com/actions/download-artifact/releases/tag/v4.1.9">View Release</a>
 </details>
 
-| v4 | v4.1.8 | 2024-07-05 | [View Release](https://github.com/actions/download-artifact/releases/tag/v4.1.8) |
 <details><summary><strong>v4.1.8 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/16991201?v=4" alt="@robherley" width="32" height="32" /> <a href="https://github.com/robherley">@robherley</a>
 
@@ -1584,9 +1684,9 @@ You download **single artifacts by ID** and your workflows expect the nested dir
 
 
 **Full Changelog**: https://github.com/actions/download-artifact/compare/v4.1.7...v4.1.8
+<br /><a href="https://github.com/actions/download-artifact/releases/tag/v4.1.8">View Release</a>
 </details>
 
-| v4 | v4.1.7 | 2024-04-24 | [View Release](https://github.com/actions/download-artifact/releases/tag/v4.1.7) |
 <details><summary><strong>v4.1.7 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/9900117?v=4" alt="@bethanyj28" width="32" height="32" /> <a href="https://github.com/bethanyj28">@bethanyj28</a>
 
@@ -1595,9 +1695,9 @@ You download **single artifacts by ID** and your workflows expect the nested dir
 
 
 **Full Changelog**: https://github.com/actions/download-artifact/compare/v4.1.6...v4.1.7
+<br /><a href="https://github.com/actions/download-artifact/releases/tag/v4.1.7">View Release</a>
 </details>
 
-| v4 | v4.1.6 | 2024-04-22 | [View Release](https://github.com/actions/download-artifact/releases/tag/v4.1.6) |
 <details><summary><strong>v4.1.6 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/28715808?v=4" alt="@eggyhead" width="32" height="32" /> <a href="https://github.com/eggyhead">@eggyhead</a>
 
@@ -1606,9 +1706,9 @@ You download **single artifacts by ID** and your workflows expect the nested dir
 
 
 **Full Changelog**: https://github.com/actions/download-artifact/compare/v4.1.5...v4.1.6
+<br /><a href="https://github.com/actions/download-artifact/releases/tag/v4.1.6">View Release</a>
 </details>
 
-| v4 | v4.1.5 | 2024-04-18 | [View Release](https://github.com/actions/download-artifact/releases/tag/v4.1.5) |
 <details><summary><strong>v4.1.5 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/28715808?v=4" alt="@eggyhead" width="32" height="32" /> <a href="https://github.com/eggyhead">@eggyhead</a>
 
@@ -1617,9 +1717,9 @@ You download **single artifacts by ID** and your workflows expect the nested dir
 * Update dependencies `@actions/core` to v1.10.1 and `@actions/artifact` to v2.1.5
 
 **Full Changelog**: https://github.com/actions/download-artifact/compare/v4.1.4...v4.1.5
+<br /><a href="https://github.com/actions/download-artifact/releases/tag/v4.1.5">View Release</a>
 </details>
 
-| v4 | v4.1.4 | 2024-03-01 | [View Release](https://github.com/actions/download-artifact/releases/tag/v4.1.4) |
 <details><summary><strong>v4.1.4 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/9900117?v=4" alt="@bethanyj28" width="32" height="32" /> <a href="https://github.com/bethanyj28">@bethanyj28</a>
 
@@ -1628,9 +1728,9 @@ You download **single artifacts by ID** and your workflows expect the nested dir
 
 
 **Full Changelog**: https://github.com/actions/download-artifact/compare/v4...v4.1.4
+<br /><a href="https://github.com/actions/download-artifact/releases/tag/v4.1.4">View Release</a>
 </details>
 
-| v4 | v4.1.3 | 2024-02-26 | [View Release](https://github.com/actions/download-artifact/releases/tag/v4.1.3) |
 <details><summary><strong>v4.1.3 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/9900117?v=4" alt="@bethanyj28" width="32" height="32" /> <a href="https://github.com/bethanyj28">@bethanyj28</a>
 
@@ -1643,24 +1743,24 @@ You download **single artifacts by ID** and your workflows expect the nested dir
 * @bethanyj28 made their first contribution in https://github.com/actions/download-artifact/pull/299
 
 **Full Changelog**: https://github.com/actions/download-artifact/compare/v4...v4.1.3
+<br /><a href="https://github.com/actions/download-artifact/releases/tag/v4.1.3">View Release</a>
 </details>
 
-| v4 | v4.1.2 | 2024-02-05 | [View Release](https://github.com/actions/download-artifact/releases/tag/v4.1.2) |
 <details><summary><strong>v4.1.2 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/28715808?v=4" alt="@eggyhead" width="32" height="32" /> <a href="https://github.com/eggyhead">@eggyhead</a>
 
 - Bump @actions/artifacts to latest version to include [updated GHES host check](https://github.com/actions/toolkit/pull/1648)
+<br /><a href="https://github.com/actions/download-artifact/releases/tag/v4.1.2">View Release</a>
 </details>
 
-| v4 | v4.1.1 | 2024-01-10 | [View Release](https://github.com/actions/download-artifact/releases/tag/v4.1.1) |
 <details><summary><strong>v4.1.1 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/9935166?v=4" alt="@vmjoseph" width="32" height="32" /> <a href="https://github.com/vmjoseph">@vmjoseph</a>
 
 - Fix transient request timeouts https://github.com/actions/download-artifact/issues/249
 - Bump `@actions/artifacts` to latest version
+<br /><a href="https://github.com/actions/download-artifact/releases/tag/v4.1.1">View Release</a>
 </details>
 
-| v4 | v4.1.0 | 2023-12-18 | [View Release](https://github.com/actions/download-artifact/releases/tag/v4.1.0) |
 <details><summary><strong>v4.1.0 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/16991201?v=4" alt="@robherley" width="32" height="32" /> <a href="https://github.com/robherley">@robherley</a>
 
@@ -1673,9 +1773,9 @@ You download **single artifacts by ID** and your workflows expect the nested dir
 * @stchr made their first contribution in https://github.com/actions/download-artifact/pull/252
 
 **Full Changelog**: https://github.com/actions/download-artifact/compare/v4...v4.1.0
+<br /><a href="https://github.com/actions/download-artifact/releases/tag/v4.1.0">View Release</a>
 </details>
 
-| v4 | v4.0.0 | 2023-12-14 | [View Release](https://github.com/actions/download-artifact/releases/tag/v4.0.0) |
 <details><summary><strong>v4.0.0 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/16991201?v=4" alt="@robherley" width="32" height="32" /> <a href="https://github.com/robherley">@robherley</a>
 
@@ -1695,6 +1795,7 @@ For more information, please see:
 * @bflad made their first contribution in https://github.com/actions/download-artifact/pull/194
 
 **Full Changelog**: https://github.com/actions/download-artifact/compare/v3...v4.0.0
+<br /><a href="https://github.com/actions/download-artifact/releases/tag/v4.0.0">View Release</a>
 </details>
 
 
@@ -1703,6 +1804,10 @@ For more information, please see:
 | Major | Version | Release Date | Link |
 |-------|---------|-------------|------|
 | v8 | v8 | 2025-09-04 | [View Release](https://github.com/actions/github-script/releases/tag/v8) |
+| v7 | v7.1.0 | 2025-09-04 | [View Release](https://github.com/actions/github-script/releases/tag/v7.1.0) |
+| v7 | v7.0.1 | 2023-11-17 | [View Release](https://github.com/actions/github-script/releases/tag/v7.0.1) |
+| v7 | v7.0.0 | 2023-11-13 | [View Release](https://github.com/actions/github-script/releases/tag/v7.0.0) |
+
 <details><summary><strong>v8 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/110618720?v=4" alt="@sneha-krip" width="32" height="32" /> <a href="https://github.com/sneha-krip">@sneha-krip</a>
 
@@ -1721,9 +1826,9 @@ Make sure your runner is updated to this version or newer to use this release.
 * @sneha-krip made their first contribution in https://github.com/actions/github-script/pull/653
 
 **Full Changelog**: https://github.com/actions/github-script/compare/v7.1.0...v8.0.0
+<br /><a href="https://github.com/actions/github-script/releases/tag/v8">View Release</a>
 </details>
 
-| v7 | v7.1.0 | 2025-09-04 | [View Release](https://github.com/actions/github-script/releases/tag/v7.1.0) |
 <details><summary><strong>v7.1.0 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/110618720?v=4" alt="@sneha-krip" width="32" height="32" /> <a href="https://github.com/sneha-krip">@sneha-krip</a>
 
@@ -1758,9 +1863,9 @@ Make sure your runner is updated to this version or newer to use this release.
 * @nebuk89 made their first contribution in https://github.com/actions/github-script/pull/610
 
 **Full Changelog**: https://github.com/actions/github-script/compare/v7...v7.1.0
+<br /><a href="https://github.com/actions/github-script/releases/tag/v7.1.0">View Release</a>
 </details>
 
-| v7 | v7.0.1 | 2023-11-17 | [View Release](https://github.com/actions/github-script/releases/tag/v7.0.1) |
 <details><summary><strong>v7.0.1 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/16631042?v=4" alt="@joshmgross" width="32" height="32" /> <a href="https://github.com/joshmgross">@joshmgross</a>
 
@@ -1769,9 +1874,9 @@ Make sure your runner is updated to this version or newer to use this release.
 
 
 **Full Changelog**: https://github.com/actions/github-script/compare/v7.0.0...v7.0.1
+<br /><a href="https://github.com/actions/github-script/releases/tag/v7.0.1">View Release</a>
 </details>
 
-| v7 | v7.0.0 | 2023-11-13 | [View Release](https://github.com/actions/github-script/releases/tag/v7.0.0) |
 <details><summary><strong>v7.0.0 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/16631042?v=4" alt="@joshmgross" width="32" height="32" /> <a href="https://github.com/joshmgross">@joshmgross</a>
 
@@ -1786,6 +1891,7 @@ Make sure your runner is updated to this version or newer to use this release.
 * @viktorlott made their first contribution in https://github.com/actions/github-script/pull/402
 
 **Full Changelog**: https://github.com/actions/github-script/compare/v6.4.1...v7.0.0
+<br /><a href="https://github.com/actions/github-script/releases/tag/v7.0.0">View Release</a>
 </details>
 
 
@@ -1794,6 +1900,9 @@ Make sure your runner is updated to this version or newer to use this release.
 | Major | Version | Release Date | Link |
 |-------|---------|-------------|------|
 | v10 | v10.0.0 | 2025-09-04 | [View Release](https://github.com/actions/stale/releases/tag/v10.0.0) |
+| v9 | v9.1.0 | 2025-01-21 | [View Release](https://github.com/actions/stale/releases/tag/v9.1.0) |
+| v9 | v9.0.0 | 2023-12-07 | [View Release](https://github.com/actions/stale/releases/tag/v9.0.0) |
+
 <details><summary><strong>v10.0.0 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/73516759?v=4" alt="@HarithaVattikuti" width="32" height="32" /> <a href="https://github.com/HarithaVattikuti">@HarithaVattikuti</a>
 
@@ -1827,9 +1936,9 @@ Make sure your runner is on version v2.327.1 or later to ensure compatibility wi
 * @salmanmkc made their first contribution in https://github.com/actions/stale/pull/1279
 
 **Full Changelog**: https://github.com/actions/stale/compare/v9...v10.0.0
+<br /><a href="https://github.com/actions/stale/releases/tag/v10.0.0">View Release</a>
 </details>
 
-| v9 | v9.1.0 | 2025-01-21 | [View Release](https://github.com/actions/stale/releases/tag/v9.1.0) |
 <details><summary><strong>v9.1.0 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/169805933?v=4" alt="@suyashgaonkar" width="32" height="32" /> <a href="https://github.com/suyashgaonkar">@suyashgaonkar</a>
 
@@ -1849,9 +1958,9 @@ Make sure your runner is on version v2.327.1 or later to ensure compatibility wi
 * @Jcambass made their first contribution in https://github.com/actions/stale/pull/1179
 
 **Full Changelog**: https://github.com/actions/stale/compare/v9...v9.1.0
+<br /><a href="https://github.com/actions/stale/releases/tag/v9.1.0">View Release</a>
 </details>
 
-| v9 | v9.0.0 | 2023-12-07 | [View Release](https://github.com/actions/stale/releases/tag/v9.0.0) |
 <details><summary><strong>v9.0.0 Release Notes</strong></summary>
 <img src="https://avatars.githubusercontent.com/u/147696841?v=4" alt="@aparnajyothi-y" width="32" height="32" /> <a href="https://github.com/aparnajyothi-y">@aparnajyothi-y</a>
 
@@ -1872,6 +1981,7 @@ For more information, please read the [action documentation](https://github.com/
 * @aparnajyothi-y made their first contribution in https://github.com/actions/stale/pull/1110
 
 **Full Changelog**: https://github.com/actions/stale/compare/v8...v9.0.0
+<br /><a href="https://github.com/actions/stale/releases/tag/v9.0.0">View Release</a>
 </details>
 
 
