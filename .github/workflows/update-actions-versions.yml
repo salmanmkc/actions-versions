@@ -68,7 +68,8 @@ jobs:
             done
 
             echo "" >> docs/index.md
-          done      - name: Commit and push changes
+          done      
+      - name: Commit and push changes
         run: |
           git config --global user.email "workflow-bot@github.com"
           git config --global user.name "Workflow Bot"
