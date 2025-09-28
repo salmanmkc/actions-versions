@@ -14,18 +14,13 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v5
-    
+
       - name: Ensure docs folder exists
         run: mkdir -p docs
 
-      - name: Fetch tags for actions/checkout
-        run: |
-          curl -s https://api.github.com/repos/actions/checkout/tags | jq -r '.[].name' > tags.txt
-
-      - name: Generate Markdown file with release notes
+      - name: Generate Markdown file with release notes, avatars, and links
         run: |
           #!/bin/bash
-
           set -e
 
           ACTIONS=(
@@ -36,7 +31,6 @@ jobs:
             "actions/setup-node"
             "actions/upload-artifact"
             "actions/download-artifact"
-            "actions/toolkit"
             "actions/github-script"
             "actions/stale"
           )
@@ -47,45 +41,48 @@ jobs:
           for repo in "${ACTIONS[@]}"; do
             echo "## $repo" >> docs/index.md
             echo "" >> docs/index.md
-            echo "| Major | Latest Minor/Patch |" >> docs/index.md
-            echo "|-------|--------------------|" >> docs/index.md
+            echo "| Major | Version | Release Date | Link |" >> docs/index.md
+            echo "|-------|---------|-------------|------|" >> docs/index.md
 
             releases=$(curl -s "https://api.github.com/repos/$repo/releases")
-            # Defensive: check if releases is valid JSON array and has at least one element
-            release_count=$(echo "$releases" | jq 'length')
-            if [[ "$release_count" -eq 0 ]]; then
-              echo "| No releases found | |" >> docs/index.md
-              echo "" >> docs/index.md
-              continue
-            fi
-
             tags=$(echo "$releases" | jq -r '.[].tag_name' | grep -E '^v[0-9]+(\.[0-9]+)*$')
-            if [[ -z "$tags" ]]; then
-              echo "| No valid tags found | |" >> docs/index.md
-              echo "" >> docs/index.md
-              continue
-            fi
-
             majors=$(echo "$tags" | grep -o '^v[0-9]\+' | sort -Vr | uniq | head -n 2)
 
             for major in $majors; do
-              latest_tag=$(echo "$tags" | grep "^$major" | sort -Vr | head -n 1)
-              release=$(echo "$releases" | jq ".[] | select(.tag_name==\"$latest_tag\")")
-              notes=$(echo "$release" | jq -r '.body // "No release notes."')
+              # Get all releases for this major, sorted by version (descending)
+              major_releases=$(echo "$releases" | jq -c ".[] | select(.tag_name|startswith(\"$major.\"))")
+              if [[ -z "$major_releases" ]]; then
+                # Fallback: check for releases with tag exactly matching the major version
+                major_releases=$(echo "$releases" | jq -c ".[] | select(.tag_name==\"$major\")")
+              fi
 
-              echo "| $major | $latest_tag |" >> docs/index.md
-              echo "" >> docs/index.md
-              echo "#### $latest_tag Release Notes" >> docs/index.md
-              echo "$notes" >> docs/index.md
-              echo "" >> docs/index.md
+              echo "$major_releases" | jq -c '.' | while read -r rel; do
+                tag=$(echo "$rel" | jq -r '.tag_name')
+                date=$(echo "$rel" | jq -r '.published_at' | cut -d'T' -f1)
+                notes=$(echo "$rel" | jq -r '.body // "No release notes."')
+                author_login=$(echo "$rel" | jq -r '.author.login')
+                author_avatar=$(echo "$rel" | jq -r '.author.avatar_url')
+                url=$(echo "$rel" | jq -r '.html_url')
+                echo "| $major | $tag | $date | [View Release]($url) |" >> docs/index.md
+                echo "<details><summary><strong>$tag Release Notes</strong></summary>" >> docs/index.md
+                echo "<img src=\"$author_avatar\" alt=\"@$author_login\" width=\"32\" height=\"32\" /> <a href=\"https://github.com/$author_login\">@$author_login</a>" >> docs/index.md
+                echo "" >> docs/index.md
+                echo "$notes" >> docs/index.md
+                echo "</details>" >> docs/index.md
+                echo "" >> docs/index.md
+              done
             done
 
             echo "" >> docs/index.md
           done
+
       - name: Commit and push changes
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }} # Store a PAT as GH_TOKEN
         run: |
           git config --global user.email "workflow-bot@github.com"
           git config --global user.name "Workflow Bot"
+          git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}
           git add docs/index.md
           git commit -m "Update action versions [skip ci]" || exit 0
           git push
