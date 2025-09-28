@@ -31,8 +31,15 @@ jobs:
           # List of actions to check (add more as needed)
           ACTIONS=(
             "actions/checkout"
+            "actions/setup-java"
+            "actions/setup-python"
+            "actions/setup-dotnet"
             "actions/setup-node"
             "actions/upload-artifact"
+            "actions/download-artifact"
+            "actions/toolkit"
+            "actions/github-script"
+            "actions/stale"
           )
 
           echo "# GitHub Actions Versions" > docs/index.md
