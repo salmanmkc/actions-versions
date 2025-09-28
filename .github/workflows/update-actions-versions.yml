@@ -24,16 +24,34 @@ jobs:
           set -e
 
           ACTIONS=(
-            "actions/checkout"
-            "actions/setup-java"
-            "actions/setup-python"
-            "actions/setup-dotnet"
-            "actions/setup-node"
+            "actions/runner"
+            "actions/toolkit"
+            "actions/go-dependency-submission"
+            "actions/javascript-action"
+            "actions/hello-world-javascript-action"
+            "actions/github-script"
+            "actions/first-interaction"
+            "actions/deploy-pages"
+            "actions/dependency-review-action"
+            "actions/delete-package-versions"
+            "actions/create-github-app-token"
+            "actions/configure-pages"
+            "actions/attest-sbom"
+            "actions/attest-build-provenance"
+            "actions/attest"
+            "actions/add-to-project"
             "actions/upload-artifact"
             "actions/download-artifact"
-            "actions/github-script"
+            "actions/cache"
+            "actions/setup-node"
+            "actions/checkout"
+            "actions/starter-workflows"
             "actions/stale"
-          )
+            "actions/setup-python"
+            "actions/setup-java"
+            "actions/setup-go"
+            "actions/setup-dotnet"
+            )
 
           echo "# GitHub Actions Versions" > docs/index.md
           echo "" >> docs/index.md
