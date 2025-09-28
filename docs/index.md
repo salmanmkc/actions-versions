@@ -1,36 +1,23 @@
-# GitHub Action Versions
+# GitHub Actions Versions
 
 ## actions/checkout
 
-| Version |
-|---------|
-| v5.0.0 |
-| v5 |
-| v4.3.0 |
-| v4.2.2 |
-| v4.2.1 |
-| v4.2.0 |
-| v4.1.7 |
-| v4.1.6 |
-| v4.1.5 |
-| v4.1.4 |
-| v4.1.3 |
-| v4.1.2 |
-| v4.1.1 |
-| v4.1.0 |
-| v4.0.0 |
-| v4 |
-| v3.6.0 |
-| v3.5.3 |
-| v3.5.2 |
-| v3.5.1 |
-| v3.5.0 |
-| v3.4.0 |
-| v3.3.0 |
-| v3.2.0 |
-| v3.1.0 |
-| v3.0.2 |
-| v3.0.1 |
-| v3.0.0 |
-| v3 |
-| v2.7.0 |
+| Major | Latest Minor/Patch |
+|-------|--------------------|
+| v5 | v5.0.0 |
+| v4 | v4.3.0 |
+
+## actions/setup-node
+
+| Major | Latest Minor/Patch |
+|-------|--------------------|
+| v5 | v5.0.0 |
+| v4 | v4.4.0 |
+
+## actions/upload-artifact
+
+| Major | Latest Minor/Patch |
+|-------|--------------------|
+| v4 | v4.6.2 |
+| v3 | v3.2.1 |
+
