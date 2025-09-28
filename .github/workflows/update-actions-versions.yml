@@ -10,7 +10,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
+    
+      - name: Ensure docs folder exists
+        run: mkdir -p docs
 
       - name: Fetch tags for actions/checkout
         run: |
