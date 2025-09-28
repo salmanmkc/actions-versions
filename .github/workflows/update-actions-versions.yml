@@ -7,7 +7,7 @@ on:
 
 permissions:
   contents: write
-  
+
 jobs:
   update_versions:
     runs-on: ubuntu-latest
@@ -24,18 +24,40 @@ jobs:
 
       - name: Generate Markdown file
         run: |
-          {
-            echo "# GitHub Action Versions"
-            echo ""
-            echo "## actions/checkout"
-            echo ""
-            echo "| Version |"
-            echo "|---------|"
-            while read tag; do
-              echo "| $tag |"
-            done < tags.txt
-          } > docs/index.md
+          #!/bin/bash
 
+          set -e
+
+          # List of actions to check (add more as needed)
+          ACTIONS=(
+            "actions/checkout"
+            "actions/setup-node"
+            "actions/upload-artifact"
+          )
+
+          echo "# GitHub Actions Versions" > docs/index.md
+          echo "" >> docs/index.md
+
+          for repo in "${ACTIONS[@]}"; do
+            echo "## $repo" >> docs/index.md
+            echo "" >> docs/index.md
+            echo "| Major | Latest Minor/Patch |" >> docs/index.md
+            echo "|-------|--------------------|" >> docs/index.md
+
+            tags=$(curl -s "https://api.github.com/repos/$repo/tags" | jq -r '.[].name' | grep -E '^v[0-9]+(\.[0-9]+)*$')
+
+            # Get major versions (v4, v5, etc.)
+            majors=$(echo "$tags" | grep -o '^v[0-9]\+' | sort -Vr | uniq)
+            majors=$(echo "$majors" | head -n 2) # get latest 2 major versions
+
+            for major in $majors; do
+              # Get all tags for this major, sort, pick latest
+              latest=$(echo "$tags" | grep "^$major" | sort -Vr | head -n 1)
+              echo "| $major | $latest |" >> docs/index.md
+            done
+
+            echo "" >> docs/index.md
+          done
       - name: Commit and push changes
         run: |
           git config --global user.email "workflow-bot@github.com"
