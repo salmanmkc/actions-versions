@@ -18,46 +18,72 @@ jobs:
       - name: Ensure docs folder exists
         run: mkdir -p docs
 
-      - name: Generate Markdown file with release notes, avatars, and links
+      - name: Generate Markdown file with sorted repos, TOC, release notes, avatars, and links
         run: |
           #!/bin/bash
           set -e
 
+          prettify_notes() {
+            local notes="$1"
+            # Replace @user mentions with Markdown links
+            notes=$(echo "$notes" | sed -E 's/@([a-zA-Z0-9_-]+)/[@\1](https:\/\/github.com\/\1)/g')
+            # Convert PR/issue URLs to Markdown links
+            notes=$(echo "$notes" | sed -E 's#(https://github.com/[^ ]+/pull/[0-9]+)# [PR](\1)#g')
+            notes=$(echo "$notes" | sed -E 's#(https://github.com/[^ ]+/issues/[0-9]+)# [Issue](\1)#g')
+            # Add spacing before bullet points
+            notes=$(echo "$notes" | sed -E 's/\* /\n- /g')
+            # Add spacing before headings
+            notes=$(echo "$notes" | sed -E 's/^(#+)/\n\1/g')
+            echo "$notes"
+          }
+
+          # Repo list (alphabetically sorted)
           ACTIONS=(
-            "actions/runner"
-            "actions/toolkit"
-            "actions/go-dependency-submission"
-            "actions/javascript-action"
-            "actions/hello-world-javascript-action"
-            "actions/github-script"
-            "actions/first-interaction"
-            "actions/deploy-pages"
-            "actions/dependency-review-action"
-            "actions/delete-package-versions"
-            "actions/create-github-app-token"
-            "actions/configure-pages"
-            "actions/attest-sbom"
-            "actions/attest-build-provenance"
-            "actions/attest"
             "actions/add-to-project"
-            "actions/upload-artifact"
-            "actions/download-artifact"
+            "actions/attest"
+            "actions/attest-build-provenance"
+            "actions/attest-sbom"
             "actions/cache"
-            "actions/setup-node"
             "actions/checkout"
-            "actions/starter-workflows"
-            "actions/stale"
-            "actions/setup-python"
-            "actions/setup-java"
-            "actions/setup-go"
+            "actions/configure-pages"
+            "actions/create-github-app-token"
+            "actions/dependency-review-action"
+            "actions/deploy-pages"
+            "actions/delete-package-versions"
+            "actions/download-artifact"
+            "actions/first-interaction"
+            "actions/github-script"
+            "actions/go-dependency-submission"
+            "actions/hello-world-javascript-action"
+            "actions/javascript-action"
+            "actions/runner"
             "actions/setup-dotnet"
-            )
+            "actions/setup-go"
+            "actions/setup-java"
+            "actions/setup-node"
+            "actions/setup-python"
+            "actions/stale"
+            "actions/starter-workflows"
+            "actions/toolkit"
+            "actions/upload-artifact"
+          )
 
           echo "# GitHub Actions Versions" > docs/index.md
           echo "" >> docs/index.md
 
+          # Table of Contents
+          echo "## Table of Contents" >> docs/index.md
           for repo in "${ACTIONS[@]}"; do
+            anchor=$(echo "$repo" | tr '/' '-' | tr '[:upper:]' '[:lower:]')
+            echo "- [${repo}](#${anchor})" >> docs/index.md
+          done
+          echo "" >> docs/index.md
+
+          # Output sections in alphabetical order
+          for repo in "${ACTIONS[@]}"; do
+            anchor=$(echo "$repo" | tr '/' '-' | tr '[:upper:]' '[:lower:]')
             echo "## $repo" >> docs/index.md
+            echo "<a name=\"$anchor\"></a>" >> docs/index.md
             echo "" >> docs/index.md
             echo "| Major | Version | Release Date | Link |" >> docs/index.md
             echo "|-------|---------|-------------|------|" >> docs/index.md
@@ -91,6 +117,7 @@ jobs:
               echo "$major_releases" | jq -c '.' | while read -r rel; do
                 tag=$(echo "$rel" | jq -r '.tag_name')
                 notes=$(echo "$rel" | jq -r '.body // "No release notes."')
+                notes=$(prettify_notes "$notes")
                 author_login=$(echo "$rel" | jq -r '.author.login')
                 author_avatar=$(echo "$rel" | jq -r '.author.avatar_url')
                 url=$(echo "$rel" | jq -r '.html_url')
@@ -109,7 +136,7 @@ jobs:
 
       - name: Commit and push changes
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }} 
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           git config --global user.email "workflow-bot@github.com"
           git config --global user.name "Workflow Bot"
@@ -117,3 +144,4 @@ jobs:
           git add docs/index.md
           git commit -m "Update action versions [skip ci]" || exit 0
           git push
+          
