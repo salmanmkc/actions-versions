@@ -22,13 +22,12 @@ jobs:
         run: |
           curl -s https://api.github.com/repos/actions/checkout/tags | jq -r '.[].name' > tags.txt
 
-      - name: Generate Markdown file
+      - name: Generate Markdown file with release notes
         run: |
           #!/bin/bash
 
           set -e
 
-          # List of actions to check (add more as needed)
           ACTIONS=(
             "actions/checkout"
             "actions/setup-java"
@@ -51,21 +50,25 @@ jobs:
             echo "| Major | Latest Minor/Patch |" >> docs/index.md
             echo "|-------|--------------------|" >> docs/index.md
 
-            tags=$(curl -s "https://api.github.com/repos/$repo/tags" | jq -r '.[].name' | grep -E '^v[0-9]+(\.[0-9]+)*$')
-
-            # Get major versions (v4, v5, etc.)
-            majors=$(echo "$tags" | grep -o '^v[0-9]\+' | sort -Vr | uniq)
-            majors=$(echo "$majors" | head -n 2) # get latest 2 major versions
+            # Get releases and tags
+            releases=$(curl -s "https://api.github.com/repos/$repo/releases")
+            tags=$(echo "$releases" | jq -r '.[].tag_name' | grep -E '^v[0-9]+(\.[0-9]+)*$')
+            majors=$(echo "$tags" | grep -o '^v[0-9]\+' | sort -Vr | uniq | head -n 2)
 
             for major in $majors; do
-              # Get all tags for this major, sort, pick latest
-              latest=$(echo "$tags" | grep "^$major" | sort -Vr | head -n 1)
-              echo "| $major | $latest |" >> docs/index.md
+              latest_tag=$(echo "$tags" | grep "^$major" | sort -Vr | head -n 1)
+              release=$(echo "$releases" | jq ".[] | select(.tag_name==\"$latest_tag\")")
+              notes=$(echo "$release" | jq -r '.body // "No release notes."')
+
+              echo "| $major | $latest_tag |" >> docs/index.md
+              echo "" >> docs/index.md
+              echo "#### $latest_tag Release Notes" >> docs/index.md
+              echo "$notes" >> docs/index.md
+              echo "" >> docs/index.md
             done
 
             echo "" >> docs/index.md
-          done
-      - name: Commit and push changes
+          done      - name: Commit and push changes
         run: |
           git config --global user.email "workflow-bot@github.com"
           git config --global user.name "Workflow Bot"
