@@ -89,7 +89,17 @@ jobs:
             echo "|-------|---------|-------------|------|" >> docs/index.md
 
             releases=$(curl -s "https://api.github.com/repos/$repo/releases")
+            if ! echo "$releases" | jq empty > /dev/null 2>&1; then
+              echo "| No releases found | | | |" >> docs/index.md
+              continue
+            fi
+
             tags=$(echo "$releases" | jq -r '.[].tag_name' | grep -E '^v[0-9]+(\.[0-9]+)*$')
+            if [[ -z "$tags" ]]; then
+              echo "| No tags found | | | |" >> docs/index.md
+              continue
+            fi
+
             majors=$(echo "$tags" | grep -o '^v[0-9]\+' | sort -Vr | uniq | head -n 2)
 
             # Table rows
@@ -144,4 +154,3 @@ jobs:
           git add docs/index.md
           git commit -m "Update action versions [skip ci]" || exit 0
           git push
-          
