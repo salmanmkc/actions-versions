@@ -48,6 +48,10 @@ jobs:
             tags=$(echo "$releases" | jq -r '.[].tag_name' | grep -E '^v[0-9]+(\.[0-9]+)*$')
             majors=$(echo "$tags" | grep -o '^v[0-9]\+' | sort -Vr | uniq | head -n 2)
 
+            # Collect release data
+            declare -a rel_table_rows=()
+            declare -a rel_details_blocks=()
+
             for major in $majors; do
               # Get all releases for this major, sorted by version (descending)
               major_releases=$(echo "$releases" | jq -c ".[] | select(.tag_name|startswith(\"$major.\"))")
@@ -56,24 +60,47 @@ jobs:
                 major_releases=$(echo "$releases" | jq -c ".[] | select(.tag_name==\"$major\")")
               fi
 
+              # Table rows
               echo "$major_releases" | jq -c '.' | while read -r rel; do
                 tag=$(echo "$rel" | jq -r '.tag_name')
                 date=$(echo "$rel" | jq -r '.published_at' | cut -d'T' -f1)
+                url=$(echo "$rel" | jq -r '.html_url')
+                rel_table_rows+=("| $major | $tag | $date | [View Release]($url) |")
+              done
+
+              # Details blocks
+              echo "$major_releases" | jq -c '.' | while read -r rel; do
+                tag=$(echo "$rel" | jq -r '.tag_name')
                 notes=$(echo "$rel" | jq -r '.body // "No release notes."')
                 author_login=$(echo "$rel" | jq -r '.author.login')
                 author_avatar=$(echo "$rel" | jq -r '.author.avatar_url')
                 url=$(echo "$rel" | jq -r '.html_url')
-                echo "| $major | $tag | $date | [View Release]($url) |" >> docs/index.md
-                echo "<details><summary><strong>$tag Release Notes</strong></summary>" >> docs/index.md
-                echo "<img src=\"$author_avatar\" alt=\"@$author_login\" width=\"32\" height=\"32\" /> <a href=\"https://github.com/$author_login\">@$author_login</a>" >> docs/index.md
-                echo "" >> docs/index.md
-                echo "$notes" >> docs/index.md
-                echo "</details>" >> docs/index.md
-                echo "" >> docs/index.md
+                rel_details_blocks+=("<details><summary><strong>$tag Release Notes</strong></summary>
+<img src=\"$author_avatar\" alt=\"@$author_login\" width=\"32\" height=\"32\" /> <a href=\"https://github.com/$author_login\">@$author_login</a>
+<br />
+$notes
+<br />
+<a href=\"$url\">View Release</a>
+</details>
+")
               done
             done
 
+            # Print table rows
+            for row in "${rel_table_rows[@]}"; do
+              echo "$row" >> docs/index.md
+            done
+
             echo "" >> docs/index.md
+
+            # Print details blocks
+            for block in "${rel_details_blocks[@]}"; do
+              echo "$block" >> docs/index.md
+              echo "" >> docs/index.md
+            done
+
+            unset rel_table_rows
+            unset rel_details_blocks
           done
 
       - name: Commit and push changes
