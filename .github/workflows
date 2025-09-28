@@ -1,0 +1,39 @@
+name: Update Action Versions
+
+on:
+  schedule:
+    - cron: '0 8 * * *' # every day at 8AM UTC
+  workflow_dispatch:
+
+jobs:
+  update_versions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Fetch tags for actions/checkout
+        run: |
+          curl -s https://api.github.com/repos/actions/checkout/tags | jq -r '.[].name' > tags.txt
+
+      - name: Generate Markdown file
+        run: |
+          {
+            echo "# GitHub Action Versions"
+            echo ""
+            echo "## actions/checkout"
+            echo ""
+            echo "| Version |"
+            echo "|---------|"
+            while read tag; do
+              echo "| $tag |"
+            done < tags.txt
+          } > docs/index.md
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.email "workflow-bot@github.com"
+          git config --global user.name "Workflow Bot"
+          git add docs/index.md
+          git commit -m "Update action versions [skip ci]" || exit 0
+          git push
