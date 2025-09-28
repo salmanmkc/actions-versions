@@ -23,24 +23,6 @@ jobs:
           #!/bin/bash
           set -e
 
-          # Robust prettify_notes function
-          prettify_notes() {
-            local notes="$1"
-            # If notes are empty, just return
-            if [[ -z "$notes" ]]; then
-              echo "No release notes."
-              return
-            fi
-            set +e
-            notes=$(echo "$notes" | sed -E 's/@([a-zA-Z0-9_-]+)/[@\1](https:\/\/github.com\/\1)/g')
-            notes=$(echo "$notes" | sed -E 's#(https://github.com/[^ ]+/pull/[0-9]+)# [PR](\1)#g')
-            notes=$(echo "$notes" | sed -E 's#(https://github.com/[^ ]+/issues/[0-9]+)# [Issue](\1)#g')
-            notes=$(echo "$notes" | sed -E 's/\* /\n- /g')
-            notes=$(echo "$notes" | sed -E 's/^(#+)/\n\1/g')
-            set -e
-            echo "$notes"
-          }
-
           # Alphabetically sorted repo list
           ACTIONS=(
             "actions/add-to-project"
@@ -130,12 +112,7 @@ jobs:
               fi
               echo "$major_releases" | jq -c '.' | while read -r rel; do
                 tag=$(echo "$rel" | jq -r '.tag_name')
-                notes=$(echo "$rel" | jq -r '.body // ""')
-                if [[ -z "$notes" ]]; then
-                  notes="No release notes."
-                else
-                  notes=$(prettify_notes "$notes")
-                fi
+                notes=$(echo "$rel" | jq -r '.body // "No release notes."')
                 author_login=$(echo "$rel" | jq -r '.author.login')
                 author_avatar=$(echo "$rel" | jq -r '.author.avatar_url')
                 url=$(echo "$rel" | jq -r '.html_url')
